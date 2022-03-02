@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import avatar from './Avatar.svg';
+import project from './Project.svg';
 
 function App() {
   const [showMenu, setShowMenu] = useState(false);
@@ -57,7 +58,7 @@ function App() {
       </div>
       <div className="space-y-4">
         <div className="text-left">&lt;about&gt;</div>
-        <div className="flex flex-col space-y-4 md:flex-row md:items-center">
+        <div className="flex flex-col space-y-4 md:flex-row md:space-x-4 md:items-center">
           <img src={avatar} className="max-h-48"></img>
           <div className="text-center md:text-right">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend nunc, vel amet mauris non. Ut varius ultrices a, lacus in. Aliquam
@@ -88,6 +89,28 @@ function App() {
         </div>
 
         <div className="text-left">&lt;/about&gt;</div>
+      </div>
+      <div className="space-y-4 md:hidden">
+        <div className="text-left">&lt;work&gt;</div>
+        <div className="flex flex-row items-center">
+          <div className="basis-1/2 text-center">
+            <div>Mobile Project</div>
+            <div>Project 1</div>
+          </div>
+          <div className="basis-1/2 text-center py-2 px-4 bg-blue-600 text-white rounded-lg">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat turpis vestibulum purus quam et eget. Enim, ac venenatis, in
+          </div>
+        </div>
+
+        <img src={project}></img>
+        <div className="flex flex-row justify-between">
+          <div>React Native</div>
+          <div>Material Design</div>
+          <div>Firebase</div>
+          <div>Expo</div>
+        </div>
+
+        <div className="text-left">&lt;/work&gt;</div>
       </div>
     </div>
   );
