@@ -45,16 +45,16 @@ function App() {
           <div>contact</div>
         </div>
       ) : null}
-      <div className="text-center space-y-4 md:text-left ">
-        <div className="text-left">&lt;intro&gt;</div>
+      <div className="flex flex-col items-center md:items-start text-center space-y-4 md:text-left ">
+        <div className="text-left self-start">&lt;intro&gt;</div>
         <div>Hi, my name is Jacob White.</div>
         <div>I design and build for the web.</div>
-        <div>
+        <div className="md:w-3/5">
           I'm a ui/ux designer and front-end developer who creates unique & interactive digital experiences with a human-centered approach. Currently,
           I'm focused on designing and building world-class applications with my team at M&S Consulting.
         </div>
         <button className="py-2 px-4 bg-blue-600 text-white rounded-lg">Send me an email</button>
-        <div className="text-left">&lt;/intro&gt;</div>
+        <div className="self-start text-left">&lt;/intro&gt;</div>
       </div>
       <div className="space-y-4">
         <div className="text-left">&lt;about&gt;</div>
@@ -93,7 +93,7 @@ function App() {
       <div className="space-y-4 md:hidden">
         <div className="text-left">&lt;work&gt;</div>
         <div className="flex flex-row items-center">
-          <div className="basis-1/2 text-center">
+          <div className="basis-1/2 text-center space-y-4">
             <div>Mobile Project</div>
             <div>Project 1</div>
           </div>
@@ -111,6 +111,40 @@ function App() {
         </div>
 
         <div className="text-left">&lt;/work&gt;</div>
+      </div>
+      <div className="hidden md:block space-y-4">
+        <div className="text-left">&lt;work&gt;</div>
+        <div className="flex flex-row">
+          <div className="basis-1/2">
+            <img src={project}></img>
+          </div>
+          <div className="basis-1/2 flex flex-col text-right justify-center space-y-4">
+            <div>Mobile Project</div>
+            <div>Project 1</div>
+            <div className="py-2 px-4 bg-blue-600 text-white rounded-lg">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat turpis vestibulum purus quam et eget. Enim, ac venenatis, in
+            </div>
+            <div className="flex flex-row justify-end space-x-4">
+              <div>React Native</div>
+              <div>Material Design</div>
+              <div>Firebase</div>
+              <div>Expo</div>
+            </div>
+          </div>
+        </div>
+        <div className="text-left">&lt;/work&gt;</div>
+      </div>
+      <div className=" flex flex-col space-y-4">
+        <div className="text-left">&lt;contact&gt;</div>
+        <div className="space-y-4 flex flex-col items-center w-full text-center">
+          <div>Get in touch.</div>
+          <div className="w-3/4">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra nisl, porttitor posuere mauris. Sapien gravida adipiscing fringilla
+            turpis lectus sed amet tellus. Diam sollicitudin eu turpis nisi augue rutrum quis.
+          </div>
+          <button className="py-2 px-4 bg-blue-600 text-white rounded-lg">Send me an email</button>
+        </div>
+        <div className="text-left">&lt;/contact&gt;</div>
       </div>
     </div>
   );
