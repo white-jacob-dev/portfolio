@@ -4,7 +4,7 @@ export function Work({ project }) {
   return (
     <>
       <div className="space-y-4 md:hidden">
-        <div className="text-left">&lt;work&gt;</div>
+        <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;work&gt;</div>
         <div className="flex flex-row items-center">
           <div className="basis-1/2 text-center space-y-4">
             <div>Mobile Project</div>
@@ -23,10 +23,10 @@ export function Work({ project }) {
           <div>Expo</div>
         </div>
 
-        <div className="text-left">&lt;/work&gt;</div>
+        <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;/work&gt;</div>
       </div>
       <div className="hidden md:block space-y-4">
-        <div className="text-left">&lt;work&gt;</div>
+        <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;work&gt;</div>
         <div className="flex flex-row">
           <div className="basis-1/2">
             <img src={project}></img>
@@ -45,10 +45,10 @@ export function Work({ project }) {
             </div>
           </div>
         </div>
-        <div className="text-left">&lt;/work&gt;</div>
+        <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;/work&gt;</div>
       </div>
       <div className="space-y-4 md:hidden">
-        <div className="text-left">&lt;work&gt;</div>
+        <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;work&gt;</div>
         <div className="flex flex-row items-center">
           <div className="basis-1/2 text-center space-y-4">
             <div>Mobile Project</div>
@@ -67,10 +67,10 @@ export function Work({ project }) {
           <div>Expo</div>
         </div>
 
-        <div className="text-left">&lt;/work&gt;</div>
+        <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;/work&gt;</div>
       </div>
       <div className="hidden md:block space-y-4">
-        <div className="text-left">&lt;work&gt;</div>
+        <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;work&gt;</div>
         <div className="flex flex-row">
           <div className="basis-1/2">
             <img src={project}></img>
@@ -89,7 +89,7 @@ export function Work({ project }) {
             </div>
           </div>
         </div>
-        <div className="text-left">&lt;/work&gt;</div>
+        <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;/work&gt;</div>
       </div>
     </>
   );
