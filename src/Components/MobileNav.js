@@ -4,7 +4,7 @@ export function MobileNav({ showMenu }) {
   return (
     <div>
       {showMenu ? (
-        <div className="flex flex-col bg-slate-300">
+        <div className="flex flex-col bg-slate-300 z-10">
           <div>intro</div>
           <div>about</div>
           <div>work</div>

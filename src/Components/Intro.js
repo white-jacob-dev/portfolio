@@ -8,7 +8,7 @@ export function Intro({}) {
         Hi, my name is <span className="text-blue-700">Jacob White</span>.
       </div>
       <div className="text-6xl font-bold tracking-tight">I design and build for the web.</div>
-      <p className="text-xl font-medium tracking-tight whitespace-normal md:w-3/5">
+      <p className="text-md md:text-xl font-medium tracking-tight whitespace-normal md:w-3/5">
         I'm a <span className="text-blue-700">ui/ux designer</span> and <span className="text-blue-700">front-end developer</span> who creates unique
         & interactive digital experiences with a human-centered approach. Currently, I'm focused on designing and building world-class applications
         with my team at <span className="text-blue-700">M&S Consulting.</span>

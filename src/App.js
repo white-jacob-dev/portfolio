@@ -19,12 +19,10 @@ function App() {
     <div>
       <Navbar handleMenu={handleMenu} />
       <MobileNav showMenu={showMenu} />
-      <div className="space-y-12">
-        <Intro />
-        <About avatar={avatar} />
-        <Work project={project} />
-        <Contact />
-      </div>
+      <Intro />
+      <About avatar={avatar} />
+      <Work project={project} />
+      <Contact />
     </div>
   );
 }
