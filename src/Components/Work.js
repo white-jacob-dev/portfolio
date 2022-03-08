@@ -12,7 +12,7 @@ export function Work({ project }) {
               <div className="text-5xl font-bold text-left">Gogh</div>
             </div>
           </div>
-          <div className="basis-3/5 text-center text-white text-xs py-3 px-4 bg-blue-600  rounded-lg">
+          <div className="basis-3/5 text-center text-white text-xs font-semibold py-3 px-4 bg-blue-600  rounded-lg">
             MOBILE ipsum dolor sit amet, consectetur adipiscing elit. Consequat turpis vestibulum purus quam et eget. Enim, ac venenatis, in
           </div>
         </div>
@@ -50,7 +50,7 @@ export function Work({ project }) {
       </div>
       <div className="space-y-4 md:hidden">
         <div className="flex flex-row items-center space-x-4 justify-between">
-          <div className="basis-3/5 text-center text-white text-xs py-3 px-4 bg-blue-600  rounded-lg">
+          <div className="basis-3/5 text-center text-white text-xs font-semibold py-3 px-4 bg-blue-600  rounded-lg">
             MOBILE ipsum dolor sit amet, consectetur adipiscing elit. Consequat turpis vestibulum purus quam et eget. Enim, ac venenatis, in
           </div>
           <div className="-space-y-1">

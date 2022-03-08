@@ -6,7 +6,7 @@ export function About({ avatar }) {
       <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;about&gt;</div>
       <div className="flex flex-col space-y-4 md:flex-row md:space-x-4 md:items-center">
         <img src={avatar} className="max-h-48"></img>
-        <div className="text-center md:text-right">
+        <div className="text-center font-medium text-xl md:text-right">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Eleifend nunc, vel amet mauris non. Ut varius ultrices a, lacus in. Aliquam risus,
           tortor egestas dui ipsum tincidunt placerat.
         </div>
