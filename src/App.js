@@ -12,13 +12,12 @@ function App() {
   const [showMenu, setShowMenu] = useState(false);
   function handleMenu() {
     setShowMenu(!showMenu);
-    console.log('showing menu: ' + showMenu);
   }
 
   return (
     <div className="px-6 snap-y snap-mandatory">
       <Navbar handleMenu={handleMenu} />
-      <MobileNav showMenu={showMenu} />
+      <MobileNav showMenu={showMenu} handleMenu={handleMenu} />
       <Intro />
       <About avatar={avatar} />
       <Work project={project} />
