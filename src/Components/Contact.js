@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 export function Contact({}) {
   return (
     <>
-      <Fade cascade left>
+      <Fade clear>
         <div id="contact" className="h-screen flex flex-col justify-center space-y-4">
           <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;contact&gt;</div>
           <div className="space-y-4 flex flex-col items-center w-full text-center">
