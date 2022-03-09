@@ -2,7 +2,7 @@ import React from 'react';
 
 export function Contact({}) {
   return (
-    <div className=" flex flex-col space-y-4">
+    <div className="h-screen flex flex-col justify-center space-y-4">
       <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;contact&gt;</div>
       <div className="space-y-4 flex flex-col items-center w-full text-center">
         <div className="text-6xl font-bold tracking-tight">Get in touch.</div>

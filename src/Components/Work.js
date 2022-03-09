@@ -2,7 +2,7 @@ import React from 'react';
 
 export function Work({ project }) {
   return (
-    <div className="space-y-4">
+    <div className="h-fit space-y-4">
       <div className="space-y-4 md:hidden">
         <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;work&gt;</div>
         <div className="flex flex-row items-center space-x-4 justify-between">

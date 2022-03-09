@@ -16,7 +16,7 @@ function App() {
   }
 
   return (
-    <div>
+    <div className="px-6 snap-y snap-mandatory">
       <Navbar handleMenu={handleMenu} />
       <MobileNav showMenu={showMenu} />
       <Intro />

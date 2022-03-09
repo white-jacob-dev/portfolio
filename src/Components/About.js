@@ -2,7 +2,7 @@ import React from 'react';
 
 export function About({ avatar }) {
   return (
-    <div className="space-y-4">
+    <div className="h-screen space-y-4 flex flex-col justify-center">
       <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;about&gt;</div>
       <div className="flex flex-col space-y-4 md:flex-row md:space-x-4 md:items-center">
         <img src={avatar} className="max-h-48"></img>
