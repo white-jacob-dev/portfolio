@@ -1,7 +1,7 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import avatar from '../Assets/avatar.svg';
+import avatar from '../Assets/avatar.png';
 import firebase from '../Assets/firebase.svg';
 import react from '../Assets/react.svg';
 import expo from '../Assets/expo.svg';
@@ -32,7 +32,7 @@ export function About({}) {
         <div id="about" className="h-screen space-y-4 flex flex-col justify-center">
           <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;about&gt;</div>
           <div className="flex flex-col space-y-4 text-md font-light tracking-tight md:flex-row md:space-x-4 md:items-center">
-            <img src={avatar} className="max-h-48 md:max-h-96"></img>
+            <img src={avatar} className=" md:max-h-96"></img>
             <div className="space-y-4">
               <Carousel dynamicHeight={true} showStatus={false} className="-space-y-6">
                 <div key="slide1" className="px-12 pb-12 pt-4 h-fit">
