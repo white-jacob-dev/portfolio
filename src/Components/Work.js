@@ -4,11 +4,11 @@ import Fade from 'react-reveal/Fade';
 export function Work({ project }) {
   return (
     <>
-      <Fade clear>
+      <Fade cascade left>
         <div id="work" className="h-fit space-y-4">
           <div className="space-y-4 md:hidden">
             <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;work&gt;</div>
-            <div className="space-y-4">
+            <div className="space-y-4 ">
               <div className="flex flex-row items-center space-x-4 justify-between">
                 <div className="basis-2/5 text-center space-y-4">
                   <div className="-space-y-1">
@@ -51,9 +51,10 @@ export function Work({ project }) {
                 </div>
               </div>
             </div>
+            <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;/work&gt;</div>
           </div>
           <div className="space-y-4 md:hidden">
-            <div className="space-y-4">
+            <div className="space-y-4 ">
               <div className="flex flex-row items-center space-x-4 justify-between">
                 <div className="basis-3/5 text-center text-white text-xs font-semibold py-3 px-4 bg-blue-600  rounded-lg">
                   MOBILE ipsum dolor sit amet, consectetur adipiscing elit. Consequat turpis vestibulum purus quam et eget. Enim, ac venenatis, in
@@ -77,6 +78,7 @@ export function Work({ project }) {
             <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;/work&gt;</div>
           </div>
           <div className="hidden md:block space-y-4">
+            <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;work&gt;</div>
             <div className="flex flex-row">
               <div className="basis-1/2">
                 <img src={project}></img>

@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import avatar from './Assets/Avatar.svg';
-import project from './Assets/Project.svg';
+import project from './Assets/project.svg';
 import Navbar from './Components/Navbar';
 import MobileNav from './Components/MobileNav';
 import Intro from './Components/Intro';
@@ -19,7 +18,7 @@ function App() {
       <Navbar handleMenu={handleMenu} />
       <MobileNav showMenu={showMenu} handleMenu={handleMenu} />
       <Intro />
-      <About avatar={avatar} />
+      <About />
       <Work project={project} />
       <Contact />
     </div>
