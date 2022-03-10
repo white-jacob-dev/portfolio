@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import project from './Assets/project.svg';
 import Navbar from './Components/Navbar';
 import MobileNav from './Components/MobileNav';
 import Intro from './Components/Intro';
@@ -19,7 +18,7 @@ function App() {
       <MobileNav showMenu={showMenu} handleMenu={handleMenu} />
       <Intro />
       <About />
-      <Work project={project} />
+      <Work />
       <Contact />
     </div>
   );

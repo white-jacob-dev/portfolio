@@ -1,7 +1,8 @@
 import React from 'react';
 import Fade from 'react-reveal/Fade';
+import projects from '../Assets/projects.png';
 
-export function Work({ project }) {
+export function Work() {
   return (
     <>
       <Fade cascade left>
@@ -21,7 +22,7 @@ export function Work({ project }) {
                 </div>
               </div>
 
-              <img src={project}></img>
+              <img src={projects} className="w-full"></img>
               <div className="flex flex-row justify-around font-semibold text-sm">
                 <div>React</div>
                 <div>Formik</div>
@@ -35,7 +36,7 @@ export function Work({ project }) {
             <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;work&gt;</div>
             <div className="flex flex-row">
               <div className="basis-1/2">
-                <img src={project}></img>
+                <img src={projects} className="w-full"></img>
               </div>
               <div className="basis-1/2 flex flex-col text-right justify-center space-y-4">
                 <div>Mobile Project</div>
@@ -51,7 +52,6 @@ export function Work({ project }) {
                 </div>
               </div>
             </div>
-            <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;/work&gt;</div>
           </div>
           <div className="space-y-4 md:hidden">
             <div className="space-y-4 ">
@@ -65,7 +65,7 @@ export function Work({ project }) {
                 </div>
               </div>
 
-              <img src={project}></img>
+              <img src={projects} className="w-full"></img>
               <div className="flex flex-row justify-around font-semibold text-sm">
                 <div>React</div>
                 <div>Formik</div>
@@ -78,10 +78,9 @@ export function Work({ project }) {
             <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;/work&gt;</div>
           </div>
           <div className="hidden md:block space-y-4">
-            <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;work&gt;</div>
             <div className="flex flex-row">
               <div className="basis-1/2">
-                <img src={project}></img>
+                <img src={projects} className="w-full"></img>
               </div>
               <div className="basis-1/2 flex flex-col text-right justify-center space-y-4">
                 <div>Mobile Project</div>
