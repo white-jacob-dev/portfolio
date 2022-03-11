@@ -100,7 +100,7 @@ export function About({}) {
           showStatus={false}
           className="w-full bg-slate-800 text-xs md:text-base rounded-b-xl md:rounded-bl-none flex flex-col pl-8 text-white"
         >
-          <div className="w-full text-left bg-slate-800 text-xs md:text-base rounded-b-xl md:rounded-bl-none flex flex-col py-4 pl-8 text-white">
+          <div className="w-full text-left flex flex-col py-4">
             <code className="text-fuchsia-400">
               <code className="text-white">&lt;</code>greeting<code className="text-white">&gt;</code>
             </code>
@@ -109,7 +109,7 @@ export function About({}) {
               <code className="text-white">&lt;</code>greeting<code className="text-white">&gt;</code>
             </code>
           </div>
-          <div className="w-full text-left bg-slate-800 text-xs md:text-base rounded-b-xl md:rounded-bl-none flex flex-col py-4 pl-8 text-white">
+          <div className="text-left flex flex-col py-4">
             <code className="text-fuchsia-400">
               <code className="text-white">&lt;</code>greeting<code className="text-white">&gt;</code>
             </code>
