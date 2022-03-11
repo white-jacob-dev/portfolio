@@ -4,7 +4,7 @@ import Fade from 'react-reveal/Fade';
 export function Intro({}) {
   return (
     <>
-      <Fade clear>
+      <Fade clear delay={1000}>
         <div id="intro" className="h-screen flex flex-col items-center justify-center text-center space-y-4 md:items-start md:text-left">
           <div className="text-left self-start font-ooohbaby text-4xl opacity-25">&lt;intro&gt;</div>
 

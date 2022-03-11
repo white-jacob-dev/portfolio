@@ -22,7 +22,9 @@ export function Work() {
                 </div>
               </div>
 
-              <img src={projects} className="w-full"></img>
+              <div className="bg-blue-500">
+                <img src={projects} className="w-full opacity-25 hover:opacity-100 transition ease-in-out duration-500"></img>
+              </div>
               <div className="flex flex-row justify-around font-semibold text-sm">
                 <div>React</div>
                 <div>Formik</div>
@@ -35,14 +37,14 @@ export function Work() {
           <div className="hidden md:block space-y-4">
             <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;work&gt;</div>
             <div className="flex flex-row">
-              <div className="basis-1/2">
-                <img src={projects} className="w-full"></img>
+              <div className="basis-1/2 bg-blue-500">
+                <img src={projects} className="w-full opacity-25 hover:opacity-100 transition ease-in-out duration-500"></img>
               </div>
               <div className="basis-1/2 flex flex-col text-right justify-center space-y-4">
                 <div>Mobile Project</div>
                 <div>Project 1</div>
                 <div className="py-2 px-4 bg-blue-600 text-white rounded-lg">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat turpis vestibulum purus quam et eget. Enim, ac venenatis, in
+                  DESKTOP ipsum dolor sit amet, consectetur adipiscing elit. Consequat turpis vestibulum purus quam et eget. Enim, ac venenatis, in
                 </div>
                 <div className="flex flex-row justify-end space-x-4">
                   <div>React Native</div>
@@ -86,7 +88,7 @@ export function Work() {
                 <div>Mobile Project</div>
                 <div>Project 1</div>
                 <div className="py-2 px-4 bg-blue-600 text-white rounded-lg">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consequat turpis vestibulum purus quam et eget. Enim, ac venenatis, in
+                  DESKTOP ipsum dolor sit amet, consectetur adipiscing elit. Consequat turpis vestibulum purus quam et eget. Enim, ac venenatis, in
                 </div>
                 <div className="flex flex-row justify-end space-x-4">
                   <div>React Native</div>
