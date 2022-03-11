@@ -34,20 +34,27 @@ export function About({}) {
           <div className="flex flex-col space-y-4 text-md font-light tracking-tight md:flex-row md:space-x-4 md:items-center">
             <img src={avatar} className="scale-75 md:scale-150 overflow-hidden"></img>
             <div className="space-y-4">
-              <Carousel dynamicHeight={true} showStatus={false} className="-space-y-6">
-                <div key="slide1" className="px-12 pb-12 pt-4 h-fit">
-                  Hello! My name is Jacob and I love creating experiences on the web that excite people.
-                </div>
-                <div key="slide2" className="px-12 pb-12 pt-4 h-fit">
-                  After spending most of my hours coding for fun during my aerospace engineering undergraduate, I realized that pursuing a computer
-                  science degree was definitely the right move for me.
-                </div>
-                <div key="slide1" className="px-12 pb-12 pt-4 h-fit">
-                  Hundreds of thousands of lines of code later, I truly love what I do and always get excited for new projects and experiences.
-                </div>
-                <div key="slide2" className="px-12 pb-12 pt-4 h-fit">
-                  I've had the joy of working with a wide variety of clients covering many different industries, and as a result, have been exposed to
-                  a miriad of technologies.
+              <Carousel dynamicHeight={true} showStatus={false} className="text-left">
+                <div className="text-left">
+                  <div class="flex items-center h-8 w-full space-x-1.5 px-3 rounded-t-xl bg-slate-800 border-b-0 border-sky-500">
+                    <div class="w-2.5 h-2.5 bg-slate-600 rounded-full"></div>
+                    <div class="w-2.5 h-2.5 bg-slate-600 rounded-full"></div>
+                    <div class="w-2.5 h-2.5 bg-slate-600 rounded-full"></div>
+                  </div>
+                  <div className="flex flex-row">
+                    <code class="hidden w-10 md:block bg-slate-800 text-slate-600 flex-col text-right align-center py-4 px-3 rounded-bl-xl">
+                      1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21
+                    </code>
+                    <div className="w-full bg-slate-800 text-xs md:text-base rounded-b-xl md:rounded-bl-none flex flex-col py-4 pl-8 text-white">
+                      <code className="text-fuchsia-400">
+                        <code className="text-white">&lt;</code>greeting<code className="text-white">&gt;</code>
+                      </code>
+                      <code className="pl-4 pr-4"> Hello! My name is Jacob and I love creating experiences on the web that excite people.</code>
+                      <code className="text-fuchsia-400">
+                        <code className="text-white">&lt;</code>/greeting<code className="text-white">&gt;</code>
+                      </code>
+                    </div>
+                  </div>
                 </div>
               </Carousel>
               <Fade cascade bottom>
@@ -89,12 +96,29 @@ export function About({}) {
         <code class="hidden w-10 md:block bg-slate-800 text-slate-600 flex-col text-right align-center py-4 px-3 rounded-bl-xl">
           1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21
         </code>
-        <div className="w-full bg-slate-800 text-xs md:text-base rounded-b-xl md:rounded-bl-none flex flex-col py-4 pl-8 text-white">
-          <code className="text-fuchsia-400">
-            <code className="text-white">&lt;</code>greeting<code className="text-white">&gt;</code>
-          </code>
-          <code>test</code>
-        </div>
+        <Carousel
+          showStatus={false}
+          className="w-full bg-slate-800 text-xs md:text-base rounded-b-xl md:rounded-bl-none flex flex-col pl-8 text-white"
+        >
+          <div className="w-full text-left bg-slate-800 text-xs md:text-base rounded-b-xl md:rounded-bl-none flex flex-col py-4 pl-8 text-white">
+            <code className="text-fuchsia-400">
+              <code className="text-white">&lt;</code>greeting<code className="text-white">&gt;</code>
+            </code>
+            <code className="pl-4"> Hello! My name is Jacob and I love creating experiences on the web that excite people.</code>
+            <code className="text-fuchsia-400">
+              <code className="text-white">&lt;</code>greeting<code className="text-white">&gt;</code>
+            </code>
+          </div>
+          <div className="w-full text-left bg-slate-800 text-xs md:text-base rounded-b-xl md:rounded-bl-none flex flex-col py-4 pl-8 text-white">
+            <code className="text-fuchsia-400">
+              <code className="text-white">&lt;</code>greeting<code className="text-white">&gt;</code>
+            </code>
+            <code className="pl-4"> Hello! My name is Jacob and I love creating experiences on the web that excite people.</code>
+            <code className="text-fuchsia-400">
+              <code className="text-white">&lt;</code>greeting<code className="text-white">&gt;</code>
+            </code>
+          </div>
+        </Carousel>
       </div>
     </>
   );
