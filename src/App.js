@@ -14,7 +14,7 @@ function App() {
 
   return (
     <div className="px-6 md:px-24 ">
-      <Navbar handleMenu={handleMenu} />
+      <Navbar showMenu={showMenu} handleMenu={handleMenu} />
       <MobileNav showMenu={showMenu} handleMenu={handleMenu} />
       <Intro />
       <About />
