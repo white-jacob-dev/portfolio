@@ -34,127 +34,127 @@ export function Skills({}) {
           <Fade clear delay={2000}>
             <div className="flex flex-col space-y-4 text-md font-light tracking-tight md:space-x-4 md:items-center">
               {/* <img src={avatar} className="scale-75 md:scale-50 overflow-hidden"></img> */}
-              <div className="text-center text-xl font-medium">Here's some of the technologies I've used:</div>
+              <div className="text-left text-lg font-semibold">Here's some of the technologies I've used:</div>
               <div className="resize grid grid-cols-4 grid-rows-5 gap-y-2 gap-x-2 place-items-center text-sm ">
-                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-3 justify-evenly  transition-all duration-500 hover:scale-110">
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center">
                     <img src={firebase} className="max-h-12"></img>
                   </div>
-                  <div className="text-center font-semibold">Firebase</div>
+                  <div className="text-center font-medium">Firebase</div>
                 </div>
-                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-3 justify-evenly transition duration-500 hover:scale-110">
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-evenly transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={react} className="max-h-9"></img>
                   </div>
-                  <div className="text-center font-semibold">React</div>
+                  <div className="text-center font-medium">React</div>
                 </div>
-                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-3 justify-between transition duration-500 hover:scale-110">
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={expo} className="max-h-8"></img>
                   </div>
-                  <div className="text-center font-semibold">Expo</div>
+                  <div className="text-center font-medium">Expo</div>
                 </div>
-                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-3 justify-between transition duration-500 hover:scale-110">
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={vscode} className="max-h-8"></img>
                   </div>
-                  <div className="text-center font-semibold">VSCode</div>
+                  <div className="text-center font-medium">VSCode</div>
                 </div>
-                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-3 justify-between transition duration-500 hover:scale-110">
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={redux} className="max-h-8"></img>
                   </div>
-                  <div className="text-center font-semibold">Redux</div>
+                  <div className="text-center font-medium">Redux</div>
                 </div>
-                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-3 justify-between transition duration-500 hover:scale-110">
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={bootstrap} className="max-h-8"></img>
                   </div>
-                  <div className="text-center font-semibold">Bootstrap</div>
+                  <div className="text-center font-medium">Bootstrap</div>
                 </div>
-                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-3 justify-between transition duration-500 hover:scale-110">
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={mui} className="max-h-9"></img>
                   </div>
-                  <div className="text-center font-semibold">MUI</div>
+                  <div className="text-center font-medium">MUI</div>
                 </div>
-                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-3 justify-between transition duration-500 hover:scale-110">
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={tailwind} className="max-h-11"></img>
                   </div>
-                  <div className="text-center font-semibold">Tailwind</div>
+                  <div className="text-center font-medium">Tailwind</div>
                 </div>
-                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-3 justify-between transition duration-500 hover:scale-110">
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={axios} className="max-h-9"></img>
                   </div>
-                  <div className="text-center font-semibold">Axios</div>
+                  <div className="text-center font-medium">Axios</div>
                 </div>
-                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-3 justify-between transition duration-500 hover:scale-110">
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={formik} className="max-h-10"></img>
                   </div>
-                  <div className="text-center font-semibold">Formik</div>
+                  <div className="text-center font-medium">Formik</div>
                 </div>
-                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-3 justify-between transition duration-500 hover:scale-110">
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={yarn} className="max-h-9"></img>
                   </div>
-                  <div className="text-center font-semibold">Yarn</div>
+                  <div className="text-center font-medium">Yarn</div>
                 </div>
-                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-3 justify-between transition duration-500 hover:scale-110">
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={figma} className="max-h-9"></img>
                   </div>
-                  <div className="text-center font-semibold">Figma</div>
+                  <div className="text-center font-medium">Figma</div>
                 </div>
-                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-3 justify-between transition duration-500 hover:scale-110">
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={typescript} className="max-h-9"></img>
                   </div>
-                  <div className="text-center font-semibold tracking-tighter">Typescript</div>
+                  <div className="text-center font-medium tracking-tighter">Typescript</div>
                 </div>
-                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-3 justify-between transition duration-500 hover:scale-110">
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={netlify} className="max-h-10"></img>
                   </div>
-                  <div className="text-center font-semibold">Netlify</div>
+                  <div className="text-center font-medium">Netlify</div>
                 </div>
-                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-3 justify-between transition duration-500 hover:scale-110">
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={git} className="max-h-10"></img>
                   </div>
-                  <div className="text-center font-semibold">Git</div>
+                  <div className="text-center font-medium">Git</div>
                 </div>
-                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-3 justify-between transition duration-500 hover:scale-110">
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={npm} className="max-h-5"></img>
                   </div>
-                  <div className="text-center font-semibold">NPM</div>
+                  <div className="text-center font-medium">NPM</div>
                 </div>
-                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-3 justify-between transition duration-500 hover:scale-110">
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={illustrator} className="max-h-9"></img>
                   </div>
-                  <div className="text-center font-semibold">Illustrator</div>
+                  <div className="text-center font-medium">Illustrator</div>
                 </div>
-                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-3 justify-between transition duration-500 hover:scale-110">
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={sass} className="max-h-10"></img>
                   </div>
-                  <div className="text-center font-semibold">Sass</div>
+                  <div className="text-center font-medium">Sass</div>
                 </div>
-                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-3 justify-between transition duration-500 hover:scale-110">
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={less} className="max-h-7"></img>
                   </div>
-                  <div className="text-center font-semibold">Less</div>
+                  <div className="text-center font-medium">Less</div>
                 </div>
-                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-3">
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={chromedevtools} className="max-h-8"></img>
                   </div>
-                  <div className="text-center font-semibold">CDT</div>
+                  <div className="text-center font-medium">CDT</div>
                 </div>
               </div>
             </div>
