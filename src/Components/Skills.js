@@ -35,7 +35,7 @@ export function Skills({}) {
             <div className="flex flex-col space-y-4 text-md font-light tracking-tight md:space-x-4 md:items-center">
               {/* <img src={avatar} className="scale-75 md:scale-50 overflow-hidden"></img> */}
               <div className="text-left text-lg font-semibold">Here's some of the technologies I've used:</div>
-              <div className="resize grid grid-cols-4 grid-rows-5 gap-y-2 gap-x-2 place-items-center text-sm ">
+              <div className="resize grid grid-cols-4 grid-rows-5 gap-y-2 gap-x-2 place-items-center text-xs">
                 <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center">
                     <img src={firebase} className="max-h-12"></img>
