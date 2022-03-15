@@ -3,6 +3,7 @@ import Navbar from './Components/Navbar';
 import MobileNav from './Components/MobileNav';
 import Intro from './Components/Intro';
 import About from './Components/About';
+import Skills from './Components/Skills';
 import Work from './Components/Work';
 import Contact from './Components/Contact';
 
@@ -18,6 +19,7 @@ function App() {
       <MobileNav showMenu={showMenu} handleMenu={handleMenu} />
       <Intro />
       <About />
+      <Skills />
       <Work />
       <Contact />
     </div>

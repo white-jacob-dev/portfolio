@@ -6,19 +6,22 @@ export function MobileNav({ handleMenu, showMenu }) {
   return (
     <div>
       {showMenu ? (
-        <Fade top cascade>
+        <Fade right cascade>
           <div className="flex flex-col space-y-2 w-fit px-8 pb-2 rounded-b-lg text-right font-semibold text-lg  bg-white/95 fixed mx-6 top-20 -right-6 z-10">
             <Link onClick={handleMenu} href="#" to="intro" spy={true} smooth={true} offset={0} duration={1000}>
-              intro
+              Intro
             </Link>
             <Link onClick={handleMenu} href="#" to="about" spy={true} smooth={true} offset={0} duration={1000}>
-              about
+              About
+            </Link>
+            <Link onClick={handleMenu} href="#" to="skills" spy={true} smooth={true} offset={0} duration={1000}>
+              Skills
             </Link>
             <Link onClick={handleMenu} href="#" to="work" spy={true} smooth={true} offset={-80} duration={1000}>
-              work
+              Work
             </Link>
             <Link onClick={handleMenu} href="#" to="contact" spy={true} smooth={true} offset={0} duration={1000}>
-              contact
+              Contact
             </Link>
           </div>
         </Fade>

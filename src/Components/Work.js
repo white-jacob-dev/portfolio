@@ -5,7 +5,7 @@ import projects from '../Assets/projects.png';
 export function Work() {
   return (
     <>
-      <Fade cascade left>
+      <Fade clear delay={1000}>
         <div id="work" className="h-fit space-y-4">
           <div className="space-y-4 md:hidden">
             <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;work&gt;</div>
