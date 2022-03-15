@@ -30,7 +30,7 @@ export function Skills({}) {
     <>
       <Fade clear delay={1000}>
         <div id="skills" className="h-screen space-y-4 flex flex-col justify-center">
-          <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;about&gt;</div>
+          <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;Skills&gt;</div>
           <Fade clear delay={2000}>
             <div className="flex flex-col space-y-4 text-md font-light tracking-tight md:space-x-4 md:items-center">
               {/* <img src={avatar} className="scale-75 md:scale-50 overflow-hidden"></img> */}
@@ -159,7 +159,7 @@ export function Skills({}) {
               </div>
             </div>
           </Fade>
-          <div className="text-left font-ooohbaby text-4xl py-4 opacity-25">&lt;/about&gt;</div>
+          <div className="text-left font-ooohbaby text-4xl py-4 opacity-25">&lt;/Skills&gt;</div>
         </div>
       </Fade>
     </>
