@@ -51,7 +51,7 @@ export function About({}) {
                     showStatus={false}
                     showArrows={false}
                     showThumbs={false}
-                    className="w-full bg-white text-slate-700 pr-4 text-xs md:text-base rounded-b-xl flex flex-col pl-8 pb-4 "
+                    className="w-full bg-white text-slate-700 pr-4 text-xs md:text-base rounded-b-xl md:rounded-bl-none flex flex-col pl-8 pb-4 "
                   >
                     <div className="text-left flex flex-col py-4">
                       <code className="text-blue-700">
