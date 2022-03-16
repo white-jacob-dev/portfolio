@@ -5,7 +5,11 @@ export function Intro({}) {
   return (
     <>
       <Fade clear delay={1000}>
-        <div id="intro" className="h-screen flex flex-col items-center justify-center text-center space-y-4 md:items-start md:text-left">
+        <section
+          href="#intro"
+          id="intro"
+          className="h-screen flex flex-col items-center justify-center text-center space-y-4 md:items-start md:text-left"
+        >
           <div className="text-left self-start font-ooohbaby text-4xl opacity-25">&lt;intro&gt;</div>
           <Fade clear delay={2000}>
             <div className="text-xl font-medium tracking-tight">
@@ -20,7 +24,7 @@ export function Intro({}) {
             <button className="py-2 px-5 bg-blue-700 text-white rounded-lg text-lg font-bold tracking-tight">Send me an email</button>
           </Fade>
           <div className="self-start text-left font-ooohbaby text-4xl opacity-25">&lt;/intro&gt;</div>
-        </div>
+        </section>
       </Fade>
     </>
   );

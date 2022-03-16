@@ -5,7 +5,7 @@ export function Contact({}) {
   return (
     <>
       <Fade clear delay={1000}>
-        <div id="contact" className="h-screen flex flex-col justify-center space-y-4">
+        <section href="#contact" id="contact" className="h-screen flex flex-col justify-center space-y-4">
           <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;contact&gt;</div>
           <Fade clear delay={2000}>
             <div className="space-y-4 flex flex-col items-center w-full text-center">
@@ -18,7 +18,7 @@ export function Contact({}) {
             </div>
           </Fade>
           <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;/contact&gt;</div>
-        </div>
+        </section>
       </Fade>
     </>
   );

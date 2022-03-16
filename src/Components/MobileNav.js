@@ -7,20 +7,60 @@ export function MobileNav({ handleMenu, showMenu }) {
     <div>
       {showMenu ? (
         <Fade right cascade>
-          <div className="flex flex-col space-y-2 w-fit px-8 pb-2 rounded-b-lg text-right font-semibold text-lg  bg-white/95 fixed mx-6 top-20 -right-6 z-10">
-            <Link onClick={handleMenu} href="#" to="intro" spy={true} smooth={true} offset={0} duration={1000}>
+          <div className="flex flex-col space-y-2 w-fit px-8 pb-2 rounded-b-lg text-right font-medium text-lg  bg-white/95 fixed mx-6 top-20 -right-6 z-10">
+            <Link
+              onClick={handleMenu}
+              activeClass="underline decoration-4 decoration-blue-700 underline-offset-4"
+              href="#"
+              to="intro"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
               Intro
             </Link>
-            <Link onClick={handleMenu} href="#" to="about" spy={true} smooth={true} offset={0} duration={1000}>
+            <Link
+              onClick={handleMenu}
+              activeClass="underline decoration-4 decoration-blue-700 underline-offset-4"
+              href="#"
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
               About
             </Link>
-            <Link onClick={handleMenu} href="#" to="skills" spy={true} smooth={true} offset={0} duration={1000}>
+            <Link
+              onClick={handleMenu}
+              activeClass="underline decoration-4 decoration-blue-700 underline-offset-4"
+              href="#"
+              to="skills"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
               Skills
             </Link>
-            <Link onClick={handleMenu} href="#" to="work" spy={true} smooth={true} offset={-80} duration={1000}>
+            <Link
+              onClick={handleMenu}
+              activeClass="underline decoration-4 decoration-blue-700 underline-offset-4"
+              href="#"
+              to="work"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
               Work
             </Link>
-            <Link onClick={handleMenu} href="#" to="contact" spy={true} smooth={true} offset={0} duration={1000}>
+            <Link
+              onClick={handleMenu}
+              activeClass="underline decoration-4 decoration-blue-700 underline-offset-4"
+              href="#"
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={1000}
+            >
               Contact
             </Link>
           </div>
