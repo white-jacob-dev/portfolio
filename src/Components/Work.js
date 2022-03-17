@@ -70,7 +70,7 @@ export function Work() {
                   <div className="text-6xl font-bold tracking-tight">GigUp</div>
 
                   <div className="text-2xl font-light tracking-tight -space-y-2">Web & Mobile Development</div>
-                  <div className="py-4 px-4 bg-blue-600 text-white text-xl font-base tracking-tight rounded-lg shadow-lg ">
+                  <div className="py-6 px-6 bg-blue-600 text-white text-xl font-base tracking-tight rounded-lg shadow-lg ">
                     A mobile application for job-seekers to be matched with part-time positions through criteria that they set, and a web portal for
                     employers to view job listings and potential candidates for hire. Also includes a super-admin portal for access to both
                     applications and all data.
