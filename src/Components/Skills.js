@@ -28,14 +28,14 @@ import { Carousel } from 'react-responsive-carousel';
 export function Skills({}) {
   return (
     <div href="#skills">
-      <Fade clear delay={1000}>
+      <Fade clear delay={500}>
         <section id="skills" className="h-screen space-y-4 flex flex-col justify-center">
           <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;skills&gt;</div>
-          <Fade clear delay={2000}>
+          <Fade clear delay={1500}>
             <div className="flex flex-col space-y-4 text-md font-light tracking-tight md:space-x-4 md:items-center">
               {/* <img src={avatar} className="scale-75 md:scale-50 overflow-hidden"></img> */}
               <div className="text-left text-lg font-semibold">Here's some of the technologies I've used:</div>
-              <div className="pb-4 grid grid-cols-4 grid-rows-5 gap-y-2 gap-x-2 place-items-center text-xs">
+              <div className="pb-4 grid grid-cols-4 grid-rows-5 md:grid-cols-6 md:grid-rows-4 gap-y-2 gap-x-2 place-items-center text-xs">
                 <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center">
                     <img src={firebase} className="max-h-12"></img>

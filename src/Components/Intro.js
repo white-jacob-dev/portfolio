@@ -4,14 +4,10 @@ import Fade from 'react-reveal/Fade';
 export function Intro({}) {
   return (
     <>
-      <Fade clear delay={1000}>
-        <section
-          href="#intro"
-          id="intro"
-          className="h-screen flex flex-col items-center justify-center text-center space-y-4 md:items-start md:text-left"
-        >
+      <Fade clear delay={500}>
+        <section href="#intro" id="intro" className="h-screen flex flex-col justify-center text-left space-y-4 md:items-start md:text-left">
           <div className="text-left self-start font-ooohbaby text-4xl opacity-25">&lt;intro&gt;</div>
-          <Fade clear delay={2000}>
+          <Fade clear delay={1500}>
             <div className="text-xl font-medium tracking-tight">
               Hi, my name is <span className="text-blue-700">Jacob White</span>.
             </div>
@@ -21,7 +17,9 @@ export function Intro({}) {
               unique & interactive digital experiences with a human-centered approach. Currently, I'm focused on designing and building world-class
               applications with my team at <span className="text-blue-700">M&S Consulting.</span>
             </p>
-            <button className="py-2 px-5 bg-blue-700 text-white rounded-lg text-lg font-bold tracking-tight">Send me an email</button>
+            <button className="self-start py-2 px-5 bg-blue-700 text-white rounded-lg shadow-lg text-lg font-bold tracking-tight">
+              Send me an email
+            </button>
           </Fade>
           <div className="self-start text-left font-ooohbaby text-4xl opacity-25">&lt;/intro&gt;</div>
         </section>

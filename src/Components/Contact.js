@@ -4,10 +4,10 @@ import Fade from 'react-reveal/Fade';
 export function Contact({}) {
   return (
     <>
-      <Fade clear delay={1000}>
+      <Fade clear delay={500}>
         <section href="#contact" id="contact" className="h-screen flex flex-col justify-center space-y-4">
           <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;contact&gt;</div>
-          <Fade clear delay={2000}>
+          <Fade clear delay={1500}>
             <div className="space-y-4 flex flex-col items-center w-full text-center">
               <div className="text-6xl font-bold tracking-tight">Get in touch.</div>
               <div className="text-md md:text-xl font-medium tracking-tight w-3/4">

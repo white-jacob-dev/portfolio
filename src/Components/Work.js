@@ -1,37 +1,63 @@
-import { MobileWork } from './Work';
 import React from 'react';
 import Fade from 'react-reveal/Fade';
-import projects from '../Assets/projects.png';
+import gigupdesktop from '../Assets/gigupdesktop.png';
+import gigupmobile from '../Assets/gigupmobile.png';
+import react from '../Assets/react.svg';
+import firebase from '../Assets/firebase.svg';
+import mui from '../Assets/mui.svg';
+import expo from '../Assets/expo.svg';
+
 export function Work() {
   return (
     <div>
-      <Fade clear delay={1000}>
+      <Fade clear delay={500}>
         <section id="work" className="h-screen flex flex-col justify-center space-y-4">
           <div className="space-y-4 md:hidden">
             <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;work&gt;</div>
-            <Fade clear delay={2000}>
+            <Fade clear delay={1500}>
               <div className="space-y-4 ">
-                <div className="flex flex-row items-center space-x-4 justify-between">
-                  <div className="basis-2/5 text-center space-y-4">
-                    <div className="-space-y-1">
-                      <div className="text-xs font-semibold text-left">Web & Mobile Project</div>
-                      <div className="text-5xl font-bold text-left">Gogh</div>
-                    </div>
+                <div className="flex flex-col space-y-4 justify-between">
+                  <div className="flex flex-row justify-between">
+                    <div className="text-5xl font-bold text-left">GigUp</div>
+                    <div className="text-xs basis-1/5 font-semibold text-right self-end">Web & Mobile Development</div>
                   </div>
-                  <div className="basis-3/5 text-center text-white text-xs font-semibold py-3 px-4 bg-blue-600  rounded-lg">
-                    MOBILE ipsum dolor sit amet, consectetur adipiscing elit. Consequat turpis vestibulum purus quam et eget. Enim, ac venenatis, in
+                  <div className="basis-3/5 text-left text-white text-xs font-base py-3 px-4 bg-blue-600  rounded-lg shadow-lg">
+                    A mobile application for job-seekers to be matched with part-time positions through criteria that they set, and a web portal for
+                    employers to view job listings and potential candidates for hire. Also includes a super-admin portal for access to both
+                    applications and all data.
                   </div>
+                </div>
+                <div>
+                  <a href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank">
+                    <img src={gigupmobile} className="w-full bg-white rounded-2xl shadow-lg"></img>
+                  </a>
                 </div>
 
-                <div className="bg-blue-500">
-                  <img src={projects} className="w-full opacity-25 hover:opacity-100 transition ease-in-out duration-500"></img>
-                </div>
-                <div className="flex flex-row justify-around font-semibold text-sm">
-                  <div>React</div>
-                  <div>Formik</div>
-                  <div>Axios</div>
-                  <div>Redux</div>
-                  <div>Expo</div>
+                <div className="flex flex-row justify-start space-x-4">
+                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={react} className="max-h-9"></img>
+                    </div>
+                    <div className="text-center text-xs">React</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={firebase} className="max-h-12"></img>
+                    </div>
+                    <div className="text-center text-xs">Firebase</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={mui} className="max-h-9"></img>
+                    </div>
+                    <div className="text-center text-xs">MUI</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={expo} className="max-h-8"></img>
+                    </div>
+                    <div className="text-center text-xs">Expo</div>
+                  </div>
                 </div>
               </div>
             </Fade>
@@ -39,22 +65,47 @@ export function Work() {
           <div className="hidden md:block space-y-4">
             <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;work&gt;</div>
             <Fade clear delay={2000}>
-              <div className="flex flex-row">
-                <div className="basis-1/2 bg-blue-500">
-                  <img src={projects} className="w-full opacity-25 hover:opacity-100 transition ease-in-out duration-500"></img>
+              <div className="flex flex-row space-x-4">
+                <div className="basis-1/2 flex flex-col text-left justify-center space-y-4">
+                  <div className="text-6xl font-bold tracking-tight">GigUp</div>
+
+                  <div className="text-2xl font-light tracking-tight -space-y-2">Web & Mobile Development</div>
+                  <div className="py-4 px-4 bg-blue-600 text-white text-xl font-base tracking-tight rounded-lg shadow-lg ">
+                    A mobile application for job-seekers to be matched with part-time positions through criteria that they set, and a web portal for
+                    employers to view job listings and potential candidates for hire. Also includes a super-admin portal for access to both
+                    applications and all data.
+                  </div>
+                  <div className="flex flex-row justify-start space-x-4">
+                    <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                      <div className="w-full h-full flex justify-center items-center">
+                        <img src={react} className="max-h-9"></img>
+                      </div>
+                      <div className="text-center text-xs">React</div>
+                    </div>
+                    <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                      <div className="w-full h-full flex justify-center items-center">
+                        <img src={firebase} className="max-h-12"></img>
+                      </div>
+                      <div className="text-center text-xs">Firebase</div>
+                    </div>
+                    <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                      <div className="w-full h-full flex justify-center items-center">
+                        <img src={mui} className="max-h-9"></img>
+                      </div>
+                      <div className="text-center text-xs">MUI</div>
+                    </div>
+                    <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                      <div className="w-full h-full flex justify-center items-center">
+                        <img src={expo} className="max-h-8"></img>
+                      </div>
+                      <div className="text-center text-xs">Expo</div>
+                    </div>
+                  </div>
                 </div>
-                <div className="basis-1/2 flex flex-col text-right justify-center space-y-4">
-                  <div>Mobile Project</div>
-                  <div>Project 1</div>
-                  <div className="py-2 px-4 bg-blue-600 text-white rounded-lg">
-                    DESKTOP ipsum dolor sit amet, consectetur adipiscing elit. Consequat turpis vestibulum purus quam et eget. Enim, ac venenatis, in
-                  </div>
-                  <div className="flex flex-row justify-end space-x-4">
-                    <div>React Native</div>
-                    <div>Material Design</div>
-                    <div>Firebase</div>
-                    <div>Expo</div>
-                  </div>
+                <div className="basis-1/2 flex flex-col justify-center">
+                  <a href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank">
+                    <img src={gigupdesktop} className="w-full rounded-3xl bg-white shadow-lg"></img>
+                  </a>
                 </div>
               </div>
             </Fade>

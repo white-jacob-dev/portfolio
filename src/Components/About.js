@@ -27,11 +27,11 @@ import { Carousel } from 'react-responsive-carousel';
 
 export function About({}) {
   return (
-    <>
-      <Fade clear delay={1000}>
+    <div>
+      <Fade clear delay={500}>
         <section href="#about" id="about" className="h-screen space-y-4 flex flex-col justify-center">
           <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;about&gt;</div>
-          <Fade clear delay={2000}>
+          <Fade clear delay={1500}>
             <div className="flex flex-col space-y-4 text-md font-light tracking-tight md:space-x-4 md:items-center">
               {/* <img src={avatar} className="scale-75 md:scale-50 overflow-hidden"></img> */}
               <div className="shadow-lg rounded-xl">
@@ -45,7 +45,6 @@ export function About({}) {
                     1 2 3 4 5 6 7 8 9 10
                   </code>
                   <Carousel
-                    autoPlay={true}
                     interval={5000}
                     emulateTouch={true}
                     showStatus={false}
@@ -105,7 +104,7 @@ export function About({}) {
           <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;/about&gt;</div>
         </section>
       </Fade>
-    </>
+    </div>
   );
 }
 

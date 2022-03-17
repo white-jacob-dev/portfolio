@@ -19,65 +19,63 @@ function Navbar({ handleMenu, showMenu }) {
           <div className="flex flex-row md:hidden mr-6">
             <Hamburger toggled={showMenu} toggle={handleMenu} />
           </div>
-          <Fade top cascade>
-            <div className="hidden md:flex flex-row space-x-12 text-lg transition duration-500 mr-12">
-              <Link
-                href="#intro"
-                activeClass="underline decoration-4 decoration-blue-700 underline-offset-4"
-                to="intro"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                className="font-semibold"
-              >
-                Intro
-              </Link>
-              <Link
-                href="#about"
-                activeClass="underline decoration-4 decoration-blue-700 underline-offset-4"
-                to="about"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                className="font-semibold"
-              >
-                About
-              </Link>
-              <Link
-                href="#skills"
-                activeClass="underline decoration-4 decoration-blue-700 underline-offset-4"
-                to="skills"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                className="font-semibold"
-              >
-                Skills
-              </Link>
-              <Link
-                href="#work"
-                activeClass="underline decoration-4 decoration-blue-700 underline-offset-4"
-                to="work"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                className="font-semibold"
-              >
-                Work
-              </Link>
-              <Link
-                href="#contact"
-                activeClass="underline decoration-4 decoration-blue-700 underline-offset-4"
-                to="contact"
-                spy={true}
-                smooth={true}
-                duration={1000}
-                className="font-semibold"
-              >
-                Contact
-              </Link>
-            </div>
-          </Fade>
+          <div className="hidden md:flex flex-row space-x-12 text-lg mr-12">
+            <Link
+              href="#intro"
+              activeClass="underline decoration-4 decoration-blue-700 underline-offset-4"
+              to="intro"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              className="font-semibold transition-all duration-500 hover:scale-125"
+            >
+              Intro
+            </Link>
+            <Link
+              href="#about"
+              activeClass="underline decoration-4 decoration-blue-700 underline-offset-4"
+              to="about"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              className="font-semibold transition-all duration-500 hover:scale-125"
+            >
+              About
+            </Link>
+            <Link
+              href="#skills"
+              activeClass="underline decoration-4 decoration-blue-700 underline-offset-4"
+              to="skills"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              className="font-semibold transition-all duration-500 hover:scale-125"
+            >
+              Skills
+            </Link>
+            <Link
+              href="#work"
+              activeClass="underline decoration-4 decoration-blue-700 underline-offset-4"
+              to="work"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              className="font-semibold transition-all duration-500 hover:scale-125"
+            >
+              Work
+            </Link>
+            <Link
+              href="#contact"
+              activeClass="underline decoration-4 decoration-blue-700 underline-offset-4"
+              to="contact"
+              spy={true}
+              smooth={true}
+              duration={1000}
+              className="font-semibold transition-all duration-500 hover:scale-125"
+            >
+              Contact
+            </Link>
+          </div>
         </nav>
       </Fade>
     </div>
