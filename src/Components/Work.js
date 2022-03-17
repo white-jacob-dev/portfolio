@@ -12,7 +12,7 @@ export function Work() {
     <div>
       <Fade clear delay={500}>
         <section id="work" className="h-screen flex flex-col justify-center space-y-4">
-          <div className="space-y-4 md:hidden">
+          <div className="space-y-4 lg:hidden">
             <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;work&gt;</div>
             <Fade clear delay={1500}>
               <div className="space-y-4 ">
@@ -62,7 +62,7 @@ export function Work() {
               </div>
             </Fade>
           </div>
-          <div className="hidden md:block space-y-4">
+          <div className="hidden lg:block space-y-4">
             <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;work&gt;</div>
             <Fade clear delay={2000}>
               <div className="flex flex-row space-x-4">
@@ -104,7 +104,7 @@ export function Work() {
                 </div>
                 <div className="basis-1/2 flex flex-col justify-center">
                   <a href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank">
-                    <img src={gigupdesktop} className="w-full rounded-3xl bg-white shadow-lg"></img>
+                    <img src={gigupdesktop} className="w-full md:w-3/4 aspect-square rounded-3xl bg-white shadow-lg"></img>
                   </a>
                 </div>
               </div>
