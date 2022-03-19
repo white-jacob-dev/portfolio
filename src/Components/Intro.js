@@ -8,10 +8,12 @@ export function Intro({}) {
         <section href="#intro" id="intro" className="h-screen flex flex-col justify-center text-left space-y-4 md:items-start md:text-left">
           <div className="text-left self-start font-ooohbaby text-4xl opacity-25">&lt;intro&gt;</div>
           <Fade clear delay={1500}>
-            <div className="text-xl font-medium tracking-tight">
-              Hi, my name is <span className="text-blue-700">Jacob White</span>.
+            <div className="text-xl font-light tracking-tight">Hi, my name is</div>
+            <div className="space-y-2">
+              <div className="text-5xl md:text-7xl font-bold tracking-tight text-blue-700">Jacob White.</div>
+              <div className="text-5xl md:text-7xl font-bold tracking-tight text-blue-400">I design & build for the web.</div>
             </div>
-            <div className="text-6xl font-bold tracking-tight">I design and build for the web.</div>
+
             <p className="text-md md:text-xl font-light tracking-tight whitespace-normal md:w-3/5">
               I'm a <span className="text-blue-700">ui/ux designer</span> and <span className="text-blue-700">front-end developer</span> who creates
               unique & interactive digital experiences with a human-centered approach. Currently, I'm focused on designing and building world-class

@@ -6,7 +6,7 @@ export function MobileNav({ handleMenu, showMenu }) {
   return (
     <div>
       {showMenu ? (
-        <Fade right cascade>
+        <Fade right cascade duration={500}>
           <div className="flex flex-col space-y-2 w-fit px-8 pb-2 rounded-b-lg text-right font-medium text-lg  bg-white/95 fixed mx-6 top-20 -right-6 z-10">
             <Link
               onClick={handleMenu}
