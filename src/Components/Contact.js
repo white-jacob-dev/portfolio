@@ -6,7 +6,7 @@ export function Contact({}) {
     <>
       <Fade clear delay={500}>
         <section href="#contact" id="contact" className="h-screen flex flex-col justify-center space-y-4">
-          <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;contact&gt;</div>
+          <div className="text-left font-ooohbaby text-3xl opacity-25">&lt;contact&gt;</div>
           <Fade clear delay={1500}>
             <div className="space-y-4 flex flex-col items-center w-full text-center">
               <div className="text-6xl font-bold tracking-tight">Get in touch.</div>
@@ -17,7 +17,7 @@ export function Contact({}) {
               <button className="py-2 px-5 bg-blue-700 text-white rounded-lg text-lg font-bold tracking-tight">Send me an email</button>
             </div>
           </Fade>
-          <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;/contact&gt;</div>
+          <div className="text-left font-ooohbaby text-3xl opacity-25">&lt;/contact&gt;</div>
         </section>
       </Fade>
     </>

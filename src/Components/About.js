@@ -30,7 +30,10 @@ export function About({}) {
     <div>
       <Fade clear delay={500}>
         <section href="#about" id="about" className="h-screen space-y-4 flex flex-col justify-center">
-          <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;about&gt;</div>
+          <div className="flex flex-row space-x-4 items-center">
+            <div className="text-left font-ooohbaby text-3xl opacity-25">&lt;about&gt;</div>
+            <div className="h-0.5 w-full bg-gray-100"></div>
+          </div>
           <Fade clear delay={1500}>
             <div className="flex flex-col space-y-4 text-md font-light tracking-tight md:space-x-4 md:items-center">
               {/* <img src={avatar} className="scale-75 md:scale-50 overflow-hidden"></img> */}
@@ -101,7 +104,7 @@ export function About({}) {
               </div>
             </div>
           </Fade>
-          <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;/about&gt;</div>
+          <div className="text-left font-ooohbaby text-3xl opacity-25">&lt;/about&gt;</div>
         </section>
       </Fade>
     </div>

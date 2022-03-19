@@ -6,7 +6,7 @@ export function Intro({}) {
     <>
       <Fade clear delay={500}>
         <section href="#intro" id="intro" className="h-screen flex flex-col justify-center text-left space-y-4 md:items-start md:text-left">
-          <div className="text-left self-start font-ooohbaby text-4xl opacity-25">&lt;intro&gt;</div>
+          <div className="text-left self-start font-ooohbaby text-3xl opacity-25">&lt;intro&gt;</div>
           <Fade clear delay={1500}>
             <div className="text-xl font-light tracking-tight">Hi, my name is</div>
             <div className="space-y-2">
@@ -23,7 +23,7 @@ export function Intro({}) {
               Send me an email
             </button>
           </Fade>
-          <div className="self-start text-left font-ooohbaby text-4xl opacity-25">&lt;/intro&gt;</div>
+          <div className="self-start text-left font-ooohbaby text-3xl opacity-25">&lt;/intro&gt;</div>
         </section>
       </Fade>
     </>

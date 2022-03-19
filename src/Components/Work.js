@@ -15,8 +15,11 @@ export function Work() {
     <div>
       <Fade clear delay={500}>
         <section id="work" className="h-fit flex flex-col justify-center space-y-4">
+          <div className="flex flex-row space-x-4 items-center">
+            <div className="text-left font-ooohbaby text-3xl opacity-25">&lt;work&gt;</div>
+            <div className="h-0.5 w-full bg-gray-100"></div>
+          </div>
           <div className="space-y-12 lg:hidden">
-            <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;work&gt;</div>
             <Fade clear delay={1500}>
               <div className="space-y-4 ">
                 <div className="flex flex-col space-y-4 justify-between">
@@ -159,7 +162,7 @@ export function Work() {
             </Fade>
           </div>
           <div className="space-y-4">
-            <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;/work&gt;</div>
+            <div className="text-left font-ooohbaby text-3xl opacity-25">&lt;/work&gt;</div>
           </div>
         </section>
       </Fade>
