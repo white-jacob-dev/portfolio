@@ -37,7 +37,12 @@ export function Skills({}) {
           <Fade clear delay={1500}>
             <div className="flex flex-col space-y-4 text-md font-light tracking-tight md:space-x-4 md:items-center">
               {/* <img src={avatar} className="scale-75 md:scale-50 overflow-hidden"></img> */}
-              <div className="text-left text-lg font-semibold">Here's some of the technologies I've used:</div>
+              <div>
+                <div className="text-left text-lg font-semibold text-blue-700">
+                  Exploring new technologies is one of my favorite things about what I do.
+                </div>
+                <div className="text-md font-light text-black">Here's some of the technologies I've used lately:</div>
+              </div>
               <div className="pb-4 grid grid-cols-4 grid-rows-5 md:grid-cols-6 md:grid-rows-4 gap-y-2 gap-x-2 place-items-center text-xs">
                 <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center">
