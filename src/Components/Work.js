@@ -6,6 +6,8 @@ import goghdesktop from '../Assets/goghdesktop.png';
 import goghmobile from '../Assets/goghmobile.png';
 import iconicairdesktop from '../Assets/iconicairdesktop.png';
 import iconicairmobile from '../Assets/iconicairmobile.png';
+import fingy3ddesktop from '../Assets/fingy3ddesktop.png';
+import fingy3dmobile from '../Assets/fingy3dmobile.png';
 import react from '../Assets/react.svg';
 import firebase from '../Assets/firebase.svg';
 import mui from '../Assets/mui.svg';
@@ -18,6 +20,10 @@ import jest from '../Assets/jest.svg';
 import chartjs from '../Assets/chartjs.svg';
 import typescript from '../Assets/typescript.svg';
 import tailwind from '../Assets/tailwind.svg';
+import jquery from '../Assets/jquery.svg';
+import html from '../Assets/html.svg';
+import css from '../Assets/css.svg';
+import javascript from '../Assets/javascript.svg';
 
 export function Work() {
   return (
@@ -44,7 +50,7 @@ export function Work() {
                 </div>
                 <div>
                   <a href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank">
-                    <img src={gigupmobile} className="w-full bg-white rounded-2xl shadow-lg"></img>
+                    <img src={gigupmobile} className="w-full bg-slate-100 rounded-2xl shadow-lg"></img>
                   </a>
                 </div>
 
@@ -183,10 +189,54 @@ export function Work() {
                   </div>
                 </div>
               </div>
+              <div className="space-y-4 ">
+                <div className="flex flex-col space-y-4 justify-between">
+                  <div className="flex flex-row justify-between">
+                    <div className="text-5xl font-bold text-left">Fingy3D</div>
+                    <div className="text-xs basis-1/5 font-semibold text-right self-end">Web Development</div>
+                  </div>
+                  <div className="basis-3/5 text-left text-white text-xs font-base py-3 px-4 bg-blue-600  rounded-lg shadow-lg">
+                    Fingy3D aims to bring accessible and affordable finger prosthetics to everyone using 3D printing and a custom-built hand scanner.
+                    The hand scanner uses a piece of 8"x11" paper and your phone's camera to accurately measure your finger prosthetic sizing, which
+                    we can then use to custom print an affordable finger prosthetic.
+                  </div>
+                </div>
+                <div>
+                  <a href="https://www.fingy3d.com/" target="_blank">
+                    <img src={fingy3dmobile} className="w-full bg-slate-100 rounded-2xl shadow-lg"></img>
+                  </a>
+                </div>
+
+                <div className="flex flex-row justify-start space-x-4">
+                  <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={javascript} className="max-h-5"></img>
+                    </div>
+                    <div className="text-center text-xxs">JavaScript</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={html} className="max-h-7"></img>
+                    </div>
+                    <div className="text-center text-xxs">HTML</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={css} className="max-h-7"></img>
+                    </div>
+                    <div className="text-center text-xxs">CSS</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={jquery} className="max-h-6"></img>
+                    </div>
+                    <div className="text-center text-xxs">jQuery</div>
+                  </div>
+                </div>
+              </div>
             </Fade>
           </div>
           <div className="hidden lg:block space-y-4">
-            <div className="text-left font-ooohbaby text-4xl opacity-25">&lt;work&gt;</div>
             <Fade clear delay={2000}>
               <div className="flex flex-row space-x-4">
                 <div className="basis-1/2 flex flex-col text-left justify-center space-y-4">
