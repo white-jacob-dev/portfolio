@@ -40,29 +40,29 @@ export function Work() {
                 </div>
 
                 <div className="flex flex-row justify-start space-x-4">
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
-                      <img src={react} className="max-h-9"></img>
+                      <img src={react} className="max-h-6"></img>
                     </div>
-                    <div className="text-center text-xs">React</div>
+                    <div className="text-center text-xxs">React</div>
                   </div>
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
-                      <img src={firebase} className="max-h-12"></img>
+                      <img src={firebase} className="max-h-7"></img>
                     </div>
-                    <div className="text-center text-xs">Firebase</div>
+                    <div className="text-center text-xxs">Firebase</div>
                   </div>
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
-                      <img src={mui} className="max-h-9"></img>
+                      <img src={mui} className="max-h-6"></img>
                     </div>
-                    <div className="text-center text-xs">MUI</div>
+                    <div className="text-center text-xxs">MUI</div>
                   </div>
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
-                      <img src={expo} className="max-h-8"></img>
+                      <img src={expo} className="max-h-5"></img>
                     </div>
-                    <div className="text-center text-xs">Expo</div>
+                    <div className="text-center text-xxs">Expo</div>
                   </div>
                 </div>
               </div>
