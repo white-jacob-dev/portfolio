@@ -9,12 +9,17 @@ export function Contact({}) {
           <div className="text-left font-ooohbaby text-3xl opacity-25">&lt;contact&gt;</div>
           <Fade clear delay={1500}>
             <div className="space-y-4 flex flex-col items-center w-full text-center">
-              <div className="text-6xl font-bold tracking-tight">Get in touch.</div>
-              <div className="text-md md:text-xl font-medium tracking-tight w-3/4">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pharetra nisl, porttitor posuere mauris. Sapien gravida adipiscing fringilla
-                turpis lectus sed amet tellus. Diam sollicitudin eu turpis nisi augue rutrum quis.
+              <div className="text-6xl font-bold tracking-tight text-blue-700">Get in touch.</div>
+              <div className="text-md md:text-xl font-light tracking-tight w-3/4">
+                <div className="text-blue-400 font-semibold tracking-tighter">Thanks for checking out my portfolio!</div>
+                <div className="py-2">If you want to get in contact with me, or simply just say hello, feel free to with the button below.</div>
               </div>
-              <button className="py-2 px-5 bg-blue-700 text-white rounded-lg text-lg font-bold tracking-tight">Send me an email</button>
+              <button
+                onClick={() => window.open('mailto:white.jacob.dev@gmail.com?subject=Hi%20Jacob%20👋')}
+                className="py-2 px-5 bg-blue-700 text-white rounded-lg text-lg font-bold tracking-tight"
+              >
+                Send me an email
+              </button>
             </div>
           </Fade>
           <div className="text-left font-ooohbaby text-3xl opacity-25">&lt;/contact&gt;</div>

@@ -19,7 +19,10 @@ export function Intro({}) {
               unique & interactive digital experiences with a human-centered approach. Currently, I'm focused on designing and building world-class
               applications with my team at <span className="text-blue-700">M&S Consulting.</span>
             </p>
-            <button className="self-start py-2 px-5 bg-blue-700 text-white rounded-lg shadow-lg text-lg font-bold tracking-tight">
+            <button
+              onClick={() => window.open('mailto:white.jacob.dev@gmail.com?subject=Hi%20Jacob%20👋')}
+              className="self-start py-2 px-5 bg-blue-700 text-white rounded-lg shadow-lg text-lg font-bold tracking-tight"
+            >
               Send me an email
             </button>
           </Fade>
