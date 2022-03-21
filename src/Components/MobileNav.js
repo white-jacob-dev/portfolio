@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import Fade from 'react-reveal/Fade';
+import resume from '../Assets/resume.pdf';
 
 export function MobileNav({ handleMenu, showMenu }) {
   return (
@@ -63,6 +64,9 @@ export function MobileNav({ handleMenu, showMenu }) {
             >
               Contact
             </Link>
+            <a href={resume} target="_blank">
+              <button className="self-start py-1 px-2 bg-blue-700 text-white rounded-lg shadow-lg text-sm font-medium tracking-tight">Resume</button>
+            </a>
           </div>
         </Fade>
       ) : null}

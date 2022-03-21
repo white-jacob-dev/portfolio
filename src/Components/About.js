@@ -34,15 +34,15 @@ export function About({}) {
             <div className="h-0.5 w-full bg-gray-100"></div>
           </div>
           <Fade clear delay={1500}>
-            <div className="flex flex-col lg:flex-row">
-              <div className="-mt-12">
-                <img src={avatar}></img>
+            <div className="flex flex-col lg:flex-row lg:items-center lg:justify-evenly">
+              <div className="lg:basis-1/3 lg:flex lg:flex-row lg:justify-center -mt-12 md:mt-0">
+                <img src={avatar} className="md:w-3/4 md:bg-white md:rounded-3xl md:shadow-lg"></img>
               </div>
-              <div>
+              <div className="lg:basis-1/3">
                 <div className="flex flex-col space-y-4 text-md font-light tracking-tight md:space-x-4 md:items-center">
                   {/* <img src={avatar} className="scale-75 md:scale-50 overflow-hidden"></img> */}
                   <div className="shadow-lg rounded-xl">
-                    <div className="flex items-center h-8 w-full space-x-1.5 px-3 rounded-t-xl bg-white border-b-2 border-slate-50">
+                    <div className="flex items-center h-8 space-x-1.5 px-3 rounded-t-xl bg-white border-b-2 border-slate-50">
                       <div className="w-2.5 h-2.5 bg-red-500 #FF5F57 rounded-full"></div>
                       <div className="w-2.5 h-2.5 bg-yellow-300 rounded-full"></div>
                       <div className="w-2.5 h-2.5 bg-green-500 rounded-full"></div>
@@ -57,7 +57,7 @@ export function About({}) {
                         showStatus={false}
                         showArrows={false}
                         showThumbs={false}
-                        className="w-full bg-white text-slate-700 pr-4 text-xs md:text-base rounded-b-xl md:rounded-bl-none flex flex-col pl-8 pb-4 "
+                        className="w-full bg-white text-slate-700 pr-8 text-xs md:text-base rounded-b-xl md:rounded-bl-none flex flex-col pl-8 pb-4 "
                       >
                         <div className="text-left flex flex-col py-4">
                           <code className="text-blue-700">
@@ -106,6 +106,130 @@ export function About({}) {
                         </div>
                       </Carousel>
                     </div>
+                  </div>
+                </div>
+              </div>
+              <div className="hidden md:block">
+                <div className="pb-4 grid grid-cols-4 grid-rows-5 md:grid-cols-4 md:grid-rows-5 gap-y-2 gap-x-2 place-items-center text-xs">
+                  <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center">
+                      <img src={firebase} className="max-h-12"></img>
+                    </div>
+                    <div className="text-center font-medium">Firebase</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-evenly transition duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={react} className="max-h-9"></img>
+                    </div>
+                    <div className="text-center font-medium">React</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={expo} className="max-h-8"></img>
+                    </div>
+                    <div className="text-center font-medium">Expo</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={vscode} className="max-h-8"></img>
+                    </div>
+                    <div className="text-center font-medium">VSCode</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={redux} className="max-h-8"></img>
+                    </div>
+                    <div className="text-center font-medium">Redux</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={bootstrap} className="max-h-8"></img>
+                    </div>
+                    <div className="text-center font-medium">Bootstrap</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={mui} className="max-h-9"></img>
+                    </div>
+                    <div className="text-center font-medium">MUI</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={tailwind} className="max-h-11"></img>
+                    </div>
+                    <div className="text-center font-medium">Tailwind</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={axios} className="max-h-9"></img>
+                    </div>
+                    <div className="text-center font-medium">Axios</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={formik} className="max-h-10"></img>
+                    </div>
+                    <div className="text-center font-medium">Formik</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={yarn} className="max-h-9"></img>
+                    </div>
+                    <div className="text-center font-medium">Yarn</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={figma} className="max-h-9"></img>
+                    </div>
+                    <div className="text-center font-medium">Figma</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={typescript} className="max-h-9"></img>
+                    </div>
+                    <div className="text-center font-medium tracking-tighter">Typescript</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={netlify} className="max-h-10"></img>
+                    </div>
+                    <div className="text-center font-medium">Netlify</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={git} className="max-h-10"></img>
+                    </div>
+                    <div className="text-center font-medium">Git</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={npm} className="max-h-5"></img>
+                    </div>
+                    <div className="text-center font-medium">NPM</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={illustrator} className="max-h-9"></img>
+                    </div>
+                    <div className="text-center font-medium">Illustrator</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={sass} className="max-h-10"></img>
+                    </div>
+                    <div className="text-center font-medium">Sass</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={less} className="max-h-7"></img>
+                    </div>
+                    <div className="text-center font-medium">Less</div>
+                  </div>
+                  <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                    <div className="w-full h-full flex justify-center items-center">
+                      <img src={chromedevtools} className="max-h-8"></img>
+                    </div>
+                    <div className="text-center font-medium">CDT</div>
                   </div>
                 </div>
               </div>

@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import { Fade as Hamburger } from 'hamburger-react';
+import resume from '../Assets/resume.pdf';
 
 function Navbar({ handleMenu, showMenu }) {
   const [introActive, setIntroActive] = useState(false);
@@ -19,7 +20,7 @@ function Navbar({ handleMenu, showMenu }) {
           <div className="flex flex-row md:hidden mr-6">
             <Hamburger toggled={showMenu} toggle={handleMenu} />
           </div>
-          <div className="hidden md:flex flex-row space-x-8 text-md mr-12">
+          <div className="hidden md:flex flex-row items-center space-x-8 text-md mr-12">
             <Link
               href="#intro"
               activeClass="underline decoration-4 decoration-blue-400 underline-offset-4 text-blue-700"
@@ -75,6 +76,9 @@ function Navbar({ handleMenu, showMenu }) {
             >
               Contact
             </Link>
+            <a href={resume} target="_blank">
+              <button className="self-start py-1 px-2 bg-blue-700 text-white rounded-lg shadow-lg text-md tracking-tight">Resume</button>
+            </a>
           </div>
         </nav>
       </Fade>
