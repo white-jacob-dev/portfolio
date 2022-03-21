@@ -5,7 +5,11 @@ export function Intro({}) {
   return (
     <>
       <Fade clear delay={500}>
-        <section href="#intro" id="intro" className="h-screen flex flex-col justify-center text-left space-y-4 md:items-start md:text-left">
+        <section
+          href="#intro"
+          id="intro"
+          className="h-screen md:h-fit lg:h-screen flex flex-col justify-center text-left space-y-4 md:items-start md:text-left"
+        >
           <div className="text-left self-start font-ooohbaby text-3xl opacity-25">&lt;intro&gt;</div>
           <Fade clear delay={1500}>
             <div className="text-xl font-light tracking-tight">Hi, my name is</div>

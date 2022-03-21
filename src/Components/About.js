@@ -28,15 +28,15 @@ export function About({}) {
   return (
     <div>
       <Fade clear delay={500}>
-        <section href="#about" id="about" className="h-screen space-y-4 flex flex-col justify-center">
+        <section href="#about" id="about" className="h-screen md:h-fit lg:h-fit space-y-4 flex flex-col justify-center">
           <div className="flex flex-row space-x-4 items-center">
             <div className="text-left font-ooohbaby text-3xl opacity-25">&lt;about&gt;</div>
             <div className="h-0.5 w-full bg-gray-100"></div>
           </div>
           <Fade clear delay={1500}>
             <div className="flex flex-col lg:flex-row lg:items-center lg:justify-evenly">
-              <div className="lg:basis-1/3 lg:flex lg:flex-row lg:justify-center -mt-12 md:mt-0">
-                <img src={avatar} className="md:w-3/4 md:bg-white md:rounded-3xl md:shadow-lg"></img>
+              <div className="lg:basis-1/3 lg:flex lg:flex-row lg:justify-center -mt-12 lg:mt-0">
+                <img src={avatar} className="md:w-1/2 lg:w-3/4 lg:bg-white lg:rounded-3xl lg:shadow-lg"></img>
               </div>
               <div className="lg:basis-1/3">
                 <div className="flex flex-col space-y-4 text-md font-light tracking-tight md:space-x-4 md:items-center">
@@ -109,7 +109,7 @@ export function About({}) {
                   </div>
                 </div>
               </div>
-              <div className="hidden md:block">
+              <div className="hidden lg:block">
                 <div className="pb-4 grid grid-cols-4 grid-rows-5 md:grid-cols-4 md:grid-rows-5 gap-y-2 gap-x-2 place-items-center text-xs">
                   <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center">

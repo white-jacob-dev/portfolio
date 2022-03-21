@@ -29,7 +29,7 @@ export function Skills({}) {
   return (
     <div href="#skills">
       <Fade clear delay={500}>
-        <section id="skills" className="h-screen space-y-4 flex flex-col justify-center">
+        <section id="skills" className="h-screen md:h-fit lg:h-fit space-y-4 flex flex-col justify-center">
           <div className="flex flex-row space-x-4 items-center">
             <div className="text-left font-ooohbaby text-3xl opacity-25">&lt;skills&gt;</div>
             <div className="h-0.5 w-full bg-gray-100"></div>

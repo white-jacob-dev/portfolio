@@ -6,7 +6,11 @@ export function Contact({}) {
     <>
       <Fade clear delay={500}>
         <div className="w-full flex flex-row justify-center">
-          <section href="#contact" id="contact" className="h-screen md:w-2/5 flex flex-col justify-center items-center space-y-4">
+          <section
+            href="#contact"
+            id="contact"
+            className="h-screen md:h-fit lg:h-screen lg:w-2/5 flex flex-col justify-center items-center space-y-4"
+          >
             <div className="text-left font-ooohbaby text-3xl opacity-25">&lt;contact&gt;</div>
             <Fade clear delay={1500}>
               <div className="space-y-4 flex flex-col items-center w-full text-center">
