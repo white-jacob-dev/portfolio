@@ -31,6 +31,7 @@ function Navbar({ handleMenu, showMenu }) {
               spy={true}
               smooth={true}
               duration={1000}
+              offset={-100}
               className="transition-all duration-500 hover:text-blue-700 tracking-tighter"
             >
               Intro
@@ -44,6 +45,7 @@ function Navbar({ handleMenu, showMenu }) {
               spy={true}
               smooth={true}
               duration={1000}
+              offset={-100}
               className=" transition-all duration-500 hover:text-blue-700 tracking-tighter"
             >
               About
@@ -57,6 +59,7 @@ function Navbar({ handleMenu, showMenu }) {
               spy={true}
               smooth={true}
               duration={1000}
+              offset={-100}
               className=" transition-all duration-500 hover:text-blue-700 tracking-tighter"
             >
               Skills
@@ -71,6 +74,7 @@ function Navbar({ handleMenu, showMenu }) {
               spy={true}
               smooth={true}
               duration={1000}
+              offset={-100}
               className=" transition-all duration-500 hover:text-blue-700 tracking-tighter"
             >
               Work

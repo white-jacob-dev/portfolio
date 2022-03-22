@@ -52,6 +52,7 @@ export function About({}) {
                         1 2 3 4 5 6 7 8 9 10
                       </code>
                       <Carousel
+                        autoPlay={true}
                         interval={5000}
                         emulateTouch={true}
                         showStatus={false}
