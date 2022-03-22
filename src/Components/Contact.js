@@ -1,5 +1,8 @@
 import React, { Suspense } from 'react';
 import Fade from 'react-reveal/Fade';
+import github from '../Assets/github.svg';
+import linkedin from '../Assets/linkedin.svg';
+import netlifyblack from '../Assets/netlifyblack.svg';
 
 export function Contact({}) {
   return (
@@ -9,7 +12,7 @@ export function Contact({}) {
           <section
             href="#contact"
             id="contact"
-            className="h-screen md:h-fit lg:h-screen lg:w-2/5 flex flex-col justify-center items-center space-y-4"
+            className="h-screen md:h-fit lg:h-screen lg:w-3/5 flex flex-col justify-center items-center space-y-4"
           >
             <div className="text-left font-ooohbaby text-3xl opacity-25">&lt;contact&gt;</div>
             <Fade clear delay={1500}>
@@ -32,6 +35,37 @@ export function Contact({}) {
             </Fade>
             <div className="text-left font-ooohbaby text-3xl opacity-25">&lt;/contact&gt;</div>
           </section>
+        </div>
+        <div className="-mt-16 h-16 md:-mt-24 md:h-24 pb-16 md:pb-8 w-full md:w-screen flex flex-row justify-center items-center space-x-4 font-light tracking-tight">
+          <div className="flex flex-col justify-center items-center space-y-2">
+            <div className="flex flex-col justify-center items-center">
+              <div className="font-semibold text-xs md:text-base">Designed & Built by Jacob White</div>
+              <div className="text-xs md:text-base">white.jacob.dev@gmail.com</div>
+            </div>
+            <div className="flex flex-row justfiy-center items-center space-x-3">
+              <div>
+                <div className="w-full h-full flex justify-center">
+                  <a href="https://github.com/white-jacob-dev">
+                    <img src={github} className="max-h-6 md:max-h-12"></img>
+                  </a>
+                </div>
+              </div>
+              <div>
+                <div className="w-full h-full flex justify-center">
+                  <a href="https://www.linkedin.com/in/jacob-white-developer/">
+                    <img src={linkedin} className="max-h-12"></img>
+                  </a>
+                </div>
+              </div>
+              <div>
+                <div className="w-full h-full flex justify-center">
+                  <a href="https://www.netlify.com">
+                    <img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" alt="Deploys by Netlify" className="max-h-6" />
+                  </a>{' '}
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </Fade>
     </>

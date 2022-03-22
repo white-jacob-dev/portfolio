@@ -17,17 +17,17 @@ function App() {
     <div className="px-6 md:px-24 bg-gray-50">
       <Navbar showMenu={showMenu} handleMenu={handleMenu} />
       <MobileNav showMenu={showMenu} handleMenu={handleMenu} />
-      <div className="space-y-8">
-        <div>
+      <div className="space-y-20 flex flex-col lg:items-center">
+        <div className="max-w-screen-lg">
           <Intro />
         </div>
-        <div>
+        <div className="max-w-screen-lg">
           <About />
         </div>
-        <div>
+        <div className="max-w-screen-lg">
           <Skills />
         </div>
-        <div>
+        <div className="max-w-screen-lg">
           <Work />
         </div>
         <div>

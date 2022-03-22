@@ -22,6 +22,13 @@ import illustrator from '../Assets/illustrator.svg';
 import sass from '../Assets/sass.svg';
 import less from '../Assets/less.png';
 import chromedevtools from '../Assets/chromedevtools.svg';
+import chartjs from '../Assets/chartjs.svg';
+import angular from '../Assets/angular.svg';
+import css from '../Assets/css.svg';
+import html from '../Assets/html.svg';
+import javascript from '../Assets/javascript.svg';
+import jquery from '../Assets/jquery.svg';
+import nodejs from '../Assets/nodejs.svg';
 
 import { Carousel } from 'react-responsive-carousel';
 
@@ -32,18 +39,18 @@ export function Skills({}) {
         <section id="skills" className="h-screen md:h-fit lg:h-fit space-y-4 flex flex-col justify-center">
           <div className="flex flex-row space-x-4 items-center">
             <div className="text-left font-ooohbaby text-3xl opacity-25">&lt;skills&gt;</div>
-            <div className="h-0.5 w-full bg-gray-100"></div>
-          </div>{' '}
+            <div className="h-0.5 w-full lg:w-1/4 bg-gray-100"></div>
+          </div>
           <Fade clear delay={1500}>
-            <div className="flex flex-col space-y-4 text-md font-light tracking-tight md:space-x-4 md:items-center">
+            <div className="flex flex-col space-y-8 text-md font-light tracking-tight md:space-x-4 md:items-center">
               {/* <img src={avatar} className="scale-75 md:scale-50 overflow-hidden"></img> */}
               <div>
-                <div className="text-left text-lg font-semibold text-blue-700">
+                <div className="text-center text-lg font-semibold text-blue-700">
                   Exploring new technologies is one of my favorite things about what I do.
                 </div>
-                <div className="text-md font-light text-black">Here's some of the technologies I've used lately:</div>
+                <div className="text-center text-md font-light text-black">Here's some of the technologies I've used lately:</div>
               </div>
-              <div className="pb-4 grid grid-cols-4 grid-rows-5 md:grid-cols-6 md:grid-rows-4 gap-y-2 gap-x-2 place-items-center text-xs">
+              <div className="pb-4 grid grid-cols-4 grid-rows-5 md:grid-cols-12 md:grid-rows-3 gap-y-2 gap-x-2 place-items-center text-xs">
                 <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center">
                     <img src={firebase} className="max-h-12"></img>
@@ -163,6 +170,48 @@ export function Skills({}) {
                     <img src={chromedevtools} className="max-h-8"></img>
                   </div>
                   <div className="text-center font-medium">CDT</div>
+                </div>
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                  <div className="w-full h-full flex justify-center items-center">
+                    <img src={angular} className="max-h-8"></img>
+                  </div>
+                  <div className="text-center font-medium">Angular</div>
+                </div>
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                  <div className="w-full h-full flex justify-center items-center">
+                    <img src={chartjs} className="max-h-8"></img>
+                  </div>
+                  <div className="text-center font-medium">Chart.js</div>
+                </div>
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                  <div className="w-full h-full flex justify-center items-center">
+                    <img src={css} className="max-h-8"></img>
+                  </div>
+                  <div className="text-center font-medium">CSS</div>
+                </div>
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                  <div className="w-full h-full flex justify-center items-center">
+                    <img src={html} className="max-h-8"></img>
+                  </div>
+                  <div className="text-center font-medium">HTML</div>
+                </div>
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                  <div className="w-full h-full flex justify-center items-center">
+                    <img src={javascript} className="max-h-8"></img>
+                  </div>
+                  <div className="text-center font-medium">JavaScript</div>
+                </div>
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                  <div className="w-full h-full flex justify-center items-center">
+                    <img src={jquery} className="max-h-8"></img>
+                  </div>
+                  <div className="text-center font-medium">jQuery</div>
+                </div>
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                  <div className="w-full h-full flex justify-center items-center">
+                    <img src={nodejs} className="max-h-8"></img>
+                  </div>
+                  <div className="text-center font-medium">Node.js</div>
                 </div>
               </div>
             </div>

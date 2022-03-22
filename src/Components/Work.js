@@ -32,7 +32,7 @@ export function Work() {
         <section id="work" className="h-fit flex flex-col justify-center space-y-4">
           <div className="flex flex-row space-x-4 items-center">
             <div className="text-left font-ooohbaby text-3xl opacity-25">&lt;work&gt;</div>
-            <div className="h-0.5 w-full bg-gray-100"></div>
+            <div className="h-0.5 w- lg:w-1/4 bg-gray-100"></div>
           </div>
           <div className="space-y-12 lg:hidden">
             <Fade clear delay={1500}>
@@ -236,14 +236,14 @@ export function Work() {
               </div>
             </Fade>
           </div>
-          <div className="hidden lg:block space-y-12">
+          <div className="hidden lg:block space-y-32">
             <Fade clear delay={2000}>
-              <div className="flex flex-row space-evenly">
-                <div className="basis-1/2 flex flex-col text-left justify-center space-y-4">
-                  <div className="text-6xl font-bold tracking-tight">GigUp</div>
+              <div className="flex flex-row space-evenly space-x-4">
+                <div className="w-fit flex flex-col text-left justify-center space-y-4">
+                  <div className="text-5xl font-bold tracking-tight">GigUp</div>
 
                   <div className="text-2xl font-light tracking-tight -space-y-2">Web & Mobile Development</div>
-                  <div className="py-6 px-6 bg-blue-600 text-white text-xl font-base tracking-tight rounded-lg shadow-lg ">
+                  <div className="py-6 px-6 bg-blue-600 text-white text-lg font-base tracking-tight rounded-lg shadow-lg ">
                     A mobile application for job-seekers to be matched with part-time positions through criteria that they set, and a web portal for
                     employers to view job listings and potential candidates for hire. Also includes a super-admin portal for access to both
                     applications and all data.
@@ -277,16 +277,16 @@ export function Work() {
                 </div>
                 <div>
                   <a className="flex flex-row justify-end items-end" href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank">
-                    <img src={gigupdesktop} className="w-4/5 rounded-3xl bg-slate-100 shadow-lg"></img>
+                    <img src={gigupdesktop} className="w-fit rounded-3xl bg-slate-100 shadow-lg"></img>
                   </a>
                 </div>
               </div>
-              <div className="flex flex-row space-evenly">
-                <div className="basis-1/2 flex flex-col text-left justify-center space-y-4">
-                  <div className="text-6xl font-bold tracking-tight">Gogh</div>
+              <div className="flex flex-row space-evenly space-x-4">
+                <div className="w-fit flex flex-col text-left justify-center space-y-4">
+                  <div className="text-5xl font-bold tracking-tight">Gogh</div>
 
                   <div className="text-2xl font-light tracking-tight -space-y-2">Web & Mobile Development</div>
-                  <div className="py-6 px-6 bg-blue-600 text-white text-xl font-base tracking-tight rounded-lg shadow-lg ">
+                  <div className="py-6 px-6 bg-blue-600 text-white text-lg font-base tracking-tight rounded-lg shadow-lg ">
                     A payment reconciliation platform that allows service providers to effortlessly create service payment plans with their customers
                     and allows customers to easily track their payment schedules. Includes a marketplace of services to browse through that fit a
                     customer's budget and needs.
@@ -325,17 +325,17 @@ export function Work() {
                   </div>
                 </div>
                 <div>
-                  <a className="flex flex-row justify-end items-end" href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank">
-                    <img src={goghdesktop} className="w-4/5 rounded-3xl bg-slate-100 shadow-lg"></img>
+                  <a className="w-full flex flex-row justify-end items-end" href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank">
+                    <img src={goghdesktop} className="rounded-3xl bg-slate-100 shadow-lg"></img>
                   </a>
                 </div>
               </div>
-              <div className="flex flex-row space-evenly">
-                <div className="basis-1/2 flex flex-col text-left justify-center space-y-4">
-                  <div className="text-6xl font-bold tracking-tight">Iconic Air</div>
+              <div className="flex flex-row space-evenly space-x-4">
+                <div className="w-fit flex flex-col text-left justify-center space-y-4">
+                  <div className="text-5xl font-bold tracking-tight">Iconic Air</div>
 
                   <div className="text-2xl font-light tracking-tight -space-y-2">Web & Mobile Development</div>
-                  <div className="py-6 px-6 bg-blue-600 text-white text-xl font-base tracking-tight rounded-lg shadow-lg ">
+                  <div className="py-6 px-6 bg-blue-600 text-white text-lg font-base tracking-tight rounded-lg shadow-lg ">
                     Contracted with the U.S. Air Force and on the Forbes 30/30 list, Iconic Air pioneers a new way of emissions monitoring and data
                     reporting for the oil and gas industry. Runs on many custom built sensor components and uses Chart.js to help platform users
                     visualize their data in the format of their liking.
@@ -374,17 +374,17 @@ export function Work() {
                   </div>
                 </div>
                 <div>
-                  <a className="flex flex-row justify-end items-end" href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank">
-                    <img src={iconicairdesktop} className="w-4/5 rounded-3xl bg-slate-100 shadow-lg"></img>
+                  <a className="w-full flex flex-row justify-end items-end" href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank">
+                    <img src={iconicairdesktop} className="rounded-3xl bg-slate-100 shadow-lg"></img>
                   </a>
                 </div>
               </div>
-              <div className="flex flex-row space-evenly">
-                <div className="basis-1/2 flex flex-col text-left justify-center space-y-4">
-                  <div className="text-6xl font-bold tracking-tight">Fingy3D</div>
+              <div className="flex flex-row space-evenly space-x-4">
+                <div className="w-fit flex flex-col text-left justify-center space-y-4">
+                  <div className="text-5xl font-bold tracking-tight">Fingy3D</div>
 
                   <div className="text-2xl font-light tracking-tight -space-y-2">Web & Mobile Development</div>
-                  <div className="py-6 px-6 bg-blue-600 text-white text-xl font-base tracking-tight rounded-lg shadow-lg ">
+                  <div className="py-6 px-6 bg-blue-600 text-white text-lg font-base tracking-tight rounded-lg shadow-lg ">
                     Fingy3D aims to bring accessible and affordable finger prosthetics to everyone using 3D printing and a custom-built hand scanner.
                     The hand scanner uses a piece of 8"x11" paper and your phone's camera to accurately measure your finger prosthetic sizing, which
                     we can then use to custom print an affordable finger prosthetic.
@@ -417,8 +417,8 @@ export function Work() {
                   </div>
                 </div>
                 <div>
-                  <a className="flex flex-row justify-end items-end" href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank">
-                    <img src={fingy3ddesktop} className="w-4/5 rounded-3xl bg-slate-100 shadow-lg"></img>
+                  <a className="w-full flex flex-row justify-end items-end" href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank">
+                    <img src={fingy3ddesktop} className="rounded-3xl bg-slate-100 shadow-lg"></img>
                   </a>
                 </div>
               </div>
