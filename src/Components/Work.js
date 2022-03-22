@@ -24,6 +24,7 @@ import jquery from '../Assets/jquery.svg';
 import html from '../Assets/html.svg';
 import css from '../Assets/css.svg';
 import javascript from '../Assets/javascript.svg';
+import link from '../Assets/link.svg';
 
 export function Work() {
   return (
@@ -35,7 +36,7 @@ export function Work() {
             <div className="h-0.5 w- lg:w-1/4 bg-gray-100"></div>
           </div>
           <div className="space-y-12 lg:hidden">
-            <Fade clear delay={1500}>
+            <Fade clear delay={500}>
               <div className="space-y-4 ">
                 <div className="flex flex-col space-y-4 justify-between">
                   <div className="flex flex-row justify-between">
@@ -49,8 +50,11 @@ export function Work() {
                   </div>
                 </div>
                 <div>
-                  <a href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank">
+                  <a href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank" className="relative z-0">
                     <img src={gigupmobile} className="w-full bg-slate-100 rounded-2xl shadow-lg"></img>
+                    <div className="absolute top-2 left-2 h-10 w-10 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
+                      <img src={link} className="h-6"></img>
+                    </div>
                   </a>
                 </div>
 
@@ -100,8 +104,11 @@ export function Work() {
                   </div>
                 </div>
                 <div>
-                  <a href="https://apps.apple.com/us/app/gogh-tech/id1597648868" target="_blank">
+                  <a href="https://apps.apple.com/us/app/gogh-tech/id1597648868" target="_blank" className="relative z-0">
                     <img src={goghmobile} className="w-full bg-slate-100 rounded-2xl shadow-lg"></img>
+                    <div className="absolute top-2 left-2 h-10 w-10 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
+                      <img src={link} className="h-6"></img>
+                    </div>
                   </a>
                 </div>
 
@@ -151,8 +158,11 @@ export function Work() {
                   </div>
                 </div>
                 <div>
-                  <a href="https://iconicair.io/" target="_blank">
+                  <a href="https://iconicair.io/" target="_blank" className="relative z-0">
                     <img src={iconicairmobile} className="w-full bg-slate-100 rounded-2xl shadow-lg"></img>
+                    <div className="absolute top-2 left-2 h-10 w-10 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
+                      <img src={link} className="h-6"></img>
+                    </div>
                   </a>
                 </div>
 
@@ -202,8 +212,11 @@ export function Work() {
                   </div>
                 </div>
                 <div>
-                  <a href="https://www.fingy3d.com/" target="_blank">
+                  <a href="https://www.fingy3d.com/" target="_blank" className="relative z-0">
                     <img src={fingy3dmobile} className="w-full bg-slate-100 rounded-2xl shadow-lg"></img>
+                    <div className="absolute top-2 left-2 h-10 w-10 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
+                      <img src={link} className="h-6"></img>
+                    </div>
                   </a>
                 </div>
 
@@ -237,7 +250,7 @@ export function Work() {
             </Fade>
           </div>
           <div className="hidden lg:block space-y-32">
-            <Fade clear delay={2000}>
+            <Fade clear delay={500}>
               <div className="flex flex-row space-evenly space-x-4">
                 <div className="w-fit flex flex-col text-left justify-center space-y-4">
                   <div className="text-5xl font-bold tracking-tight">GigUp</div>
@@ -276,8 +289,11 @@ export function Work() {
                   </div>
                 </div>
                 <div>
-                  <a className="flex flex-row justify-end items-end" href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank">
-                    <img src={gigupdesktop} className="w-fit rounded-3xl bg-slate-100 shadow-lg"></img>
+                  <a className="flex flex-row justify-end items-end relative" href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank">
+                    <img src={gigupdesktop} className="w-fit rounded-3xl bg-slate-100 shadow-lg z-0"></img>
+                    <div className="absolute top-6 right-6 h-16 w-16 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
+                      <img src={link} className="h-8"></img>
+                    </div>
                   </a>
                 </div>
               </div>
@@ -325,8 +341,15 @@ export function Work() {
                   </div>
                 </div>
                 <div>
-                  <a className="w-full flex flex-row justify-end items-end" href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank">
+                  <a
+                    className="w-full flex flex-row justify-end items-end relative"
+                    href="https://apps.apple.com/us/app/gigup/id1603502689"
+                    target="_blank"
+                  >
                     <img src={goghdesktop} className="rounded-3xl bg-slate-100 shadow-lg"></img>
+                    <div className="absolute top-6 right-6 h-16 w-16 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
+                      <img src={link} className="h-8"></img>
+                    </div>
                   </a>
                 </div>
               </div>
@@ -374,8 +397,15 @@ export function Work() {
                   </div>
                 </div>
                 <div>
-                  <a className="w-full flex flex-row justify-end items-end" href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank">
+                  <a
+                    className="w-full flex flex-row justify-end items-end relative"
+                    href="https://apps.apple.com/us/app/gigup/id1603502689"
+                    target="_blank"
+                  >
                     <img src={iconicairdesktop} className="rounded-3xl bg-slate-100 shadow-lg"></img>
+                    <div className="absolute top-6 right-6 h-16 w-16 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
+                      <img src={link} className="h-8"></img>
+                    </div>
                   </a>
                 </div>
               </div>
@@ -417,8 +447,15 @@ export function Work() {
                   </div>
                 </div>
                 <div>
-                  <a className="w-full flex flex-row justify-end items-end" href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank">
+                  <a
+                    className="w-full flex flex-row justify-end items-end relative"
+                    href="https://apps.apple.com/us/app/gigup/id1603502689"
+                    target="_blank"
+                  >
                     <img src={fingy3ddesktop} className="rounded-3xl bg-slate-100 shadow-lg"></img>
+                    <div className="absolute top-6 right-6 h-16 w-16 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
+                      <img src={link} className="h-8"></img>
+                    </div>
                   </a>
                 </div>
               </div>

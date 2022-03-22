@@ -173,31 +173,31 @@ export function Skills({}) {
                 </div>
                 <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
-                    <img src={angular} className="max-h-8"></img>
+                    <img src={angular} className="max-h-11"></img>
                   </div>
                   <div className="text-center font-medium">Angular</div>
                 </div>
                 <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
-                    <img src={chartjs} className="max-h-8"></img>
+                    <img src={chartjs} className="max-h-12"></img>
                   </div>
                   <div className="text-center font-medium">Chart.js</div>
                 </div>
                 <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
-                    <img src={css} className="max-h-8"></img>
+                    <img src={css} className="max-h-10"></img>
                   </div>
                   <div className="text-center font-medium">CSS</div>
                 </div>
                 <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
-                    <img src={html} className="max-h-8"></img>
+                    <img src={html} className="max-h-10"></img>
                   </div>
                   <div className="text-center font-medium">HTML</div>
                 </div>
                 <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
-                    <img src={javascript} className="max-h-8"></img>
+                    <img src={javascript} className="max-h-9"></img>
                   </div>
                   <div className="text-center font-medium">JavaScript</div>
                 </div>
@@ -209,7 +209,7 @@ export function Skills({}) {
                 </div>
                 <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
-                    <img src={nodejs} className="max-h-8"></img>
+                    <img src={nodejs} className="max-h-12"></img>
                   </div>
                   <div className="text-center font-medium">Node.js</div>
                 </div>

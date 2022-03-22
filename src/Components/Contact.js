@@ -12,7 +12,7 @@ export function Contact({}) {
           <section
             href="#contact"
             id="contact"
-            className="h-screen md:h-fit lg:h-screen lg:w-3/5 flex flex-col justify-center items-center space-y-4"
+            className="h-screen md:h-fit lg:h-screen lg:w-2/5 flex flex-col justify-center items-center space-y-4"
           >
             <div className="text-left font-ooohbaby text-3xl opacity-25">&lt;contact&gt;</div>
             <Fade clear delay={1500}>
@@ -45,14 +45,14 @@ export function Contact({}) {
             <div className="flex flex-row justfiy-center items-center space-x-3">
               <div>
                 <div className="w-full h-full flex justify-center">
-                  <a href="https://github.com/white-jacob-dev">
+                  <a href="https://github.com/white-jacob-dev" target="_blank">
                     <img src={github} className="max-h-6 md:max-h-12"></img>
                   </a>
                 </div>
               </div>
               <div>
                 <div className="w-full h-full flex justify-center">
-                  <a href="https://www.linkedin.com/in/jacob-white-developer/">
+                  <a href="https://www.linkedin.com/in/jacob-white-developer/" target="_blank">
                     <img src={linkedin} className="max-h-12"></img>
                   </a>
                 </div>
@@ -60,7 +60,12 @@ export function Contact({}) {
               <div>
                 <div className="w-full h-full flex justify-center">
                   <a href="https://www.netlify.com">
-                    <img src="https://www.netlify.com/img/global/badges/netlify-dark.svg" alt="Deploys by Netlify" className="max-h-6" />
+                    <img
+                      src="https://www.netlify.com/img/global/badges/netlify-dark.svg"
+                      target="_blank"
+                      alt="Deploys by Netlify"
+                      className="max-h-6"
+                    />
                   </a>{' '}
                 </div>
               </div>

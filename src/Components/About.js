@@ -27,16 +27,16 @@ import avatar from '../Assets/avatar.png';
 export function About({}) {
   return (
     <div>
-      <Fade clear delay={500}>
+      <Fade clear delay={400}>
         <section href="#about" id="about" className="h-screen md:h-fit lg:h-fit space-y-4 flex flex-col justify-center">
           <div className="flex flex-row space-x-4 items-center">
             <div className="text-left font-ooohbaby text-3xl opacity-25">&lt;about&gt;</div>
             <div className="h-0.5 w-full lg:w-1/4 bg-gray-100"></div>
           </div>
-          <Fade clear delay={1500}>
-            <div className="flex flex-col lg:flex-row lg:items-center lg:space-x-6">
+          <Fade clear delay={800}>
+            <div className="flex flex-col align-center items-center justify-center lg:flex-row lg:items-center lg:space-x-6">
               <div className="lg:flex lg:flex-row lg:justify-center -mt-12 lg:mt-0">
-                <img src={avatar} className="lg:h-full  lg:bg-white lg:rounded-3xl lg:shadow-lg"></img>
+                <img src={avatar} className="lg:h-full  lg:bg-white lg:rounded-3xl lg:shadow-lg sm:max-h-60 lg:max-h-full"></img>
               </div>
               <div className="basis-1/2">
                 <div className="flex flex-col space-y-4 text-md font-light tracking-tight md:space-x-4 md:items-center">
