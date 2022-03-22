@@ -41,7 +41,7 @@ export function Contact({}) {
           </Fade>
         </section>
       </div>
-      <Fade bottom delay={2800}>
+      <Fade bottom delay={0}>
         <div className="-mt-16 h-16 md:-mt-24 md:h-24 pb-16 md:pb-8 w-full md:w-screen flex flex-row justify-center items-center space-x-4 font-light tracking-tight">
           <div className="flex flex-col justify-center items-center space-y-2">
             <div className="flex flex-col justify-center items-center">
