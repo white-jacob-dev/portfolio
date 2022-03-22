@@ -42,12 +42,12 @@ export function About({}) {
                 <div className="flex flex-col space-y-4 text-md font-light tracking-tight md:space-x-4 md:items-center">
                   {/* <img src={avatar} className="scale-75 md:scale-50 overflow-hidden"></img> */}
                   <div className="shadow-lg rounded-xl">
-                    <div className="flex items-center h-8 space-x-1.5 px-3 rounded-t-xl bg-white border-b-2 border-slate-50">
+                    <div className="w-full flex items-center h-8 space-x-1.5 px-3 rounded-t-xl bg-white border-b-2 border-slate-50">
                       <div className="w-2.5 h-2.5 bg-red-500 #FF5F57 rounded-full"></div>
                       <div className="w-2.5 h-2.5 bg-yellow-300 rounded-full"></div>
                       <div className="w-2.5 h-2.5 bg-green-500 rounded-full"></div>
                     </div>
-                    <div className="flex flex-row">
+                    <div className="flex flex-row w-screen lg:w-fit">
                       <code className="hidden w-10 md:block bg-white text-slate-600 flex-col text-right align-center py-4 px-3 rounded-bl-xl border-r-2 border-slate-50">
                         1 2 3 4 5 6 7 8 9 10
                       </code>

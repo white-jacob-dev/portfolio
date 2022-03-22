@@ -29,6 +29,7 @@ import html from '../Assets/html.svg';
 import javascript from '../Assets/javascript.svg';
 import jquery from '../Assets/jquery.svg';
 import nodejs from '../Assets/nodejs.svg';
+import photoshop from '../Assets/photoshop.svg';
 
 import { Carousel } from 'react-responsive-carousel';
 
@@ -152,6 +153,12 @@ export function Skills({}) {
                     <img src={illustrator} className="max-h-9"></img>
                   </div>
                   <div className="text-center font-medium">Illustrator</div>
+                </div>
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                  <div className="w-full h-full flex justify-center items-center">
+                    <img src={photoshop} className="max-h-12"></img>
+                  </div>
+                  <div className="text-center font-medium">Photoshop</div>
                 </div>
                 <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
