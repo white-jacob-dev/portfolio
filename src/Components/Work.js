@@ -32,7 +32,7 @@ export function Work() {
       <section id="work" className="h-fit flex flex-col justify-center space-y-8">
         <Fade top delay={400}>
           <div className="flex flex-row space-x-4 items-center">
-            <div className="text-left font-ooohbaby text-3xl opacity-25">&lt;work&gt;</div>
+            <div className="text-left font-ooohbaby text-3xl text-slate-400">&lt;work&gt;</div>
             <div className="h-0.5 w- lg:w-1/4 bg-gray-100"></div>
           </div>
         </Fade>
@@ -593,7 +593,7 @@ export function Work() {
           </div>
         </div>
         <div className="pt-4">
-          <div className="text-left font-ooohbaby text-3xl opacity-25">&lt;/work&gt;</div>
+          <div className="text-left font-ooohbaby text-3xl text-slate-400">&lt;/work&gt;</div>
         </div>
       </section>
     </div>
