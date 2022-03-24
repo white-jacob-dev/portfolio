@@ -27,21 +27,12 @@ export function MobileNav({ handleMenu, showMenu }) {
               spy={true}
               smooth={true}
               duration={1000}
+              offset={-70}
               className="transition-all duration-500 hover:text-blue-700 tracking-tighter"
             >
               About
             </Link>
-            <Link
-              onClick={handleMenu}
-              activeClass="underline decoration-4 decoration-blue-400 underline-offset-4 text-blue-700"
-              to="skills"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              className="transition-all duration-500 hover:text-blue-700 tracking-tighter"
-            >
-              Skills
-            </Link>
+
             <Link
               onClick={handleMenu}
               activeClass="underline decoration-4 decoration-blue-400 underline-offset-4 text-blue-700"
@@ -49,6 +40,7 @@ export function MobileNav({ handleMenu, showMenu }) {
               spy={true}
               smooth={true}
               duration={1000}
+              offset={-70}
               className="transition-all duration-500 hover:text-blue-700 tracking-tighter"
             >
               Work

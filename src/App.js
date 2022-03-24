@@ -24,9 +24,9 @@ function App() {
         <div className="max-w-screen-lg">
           <About />
         </div>
-        <div className="max-w-screen-lg">
+        {/* <div className="max-w-screen-lg">
           <Skills />
-        </div>
+        </div> */}
         <div className="max-w-screen-lg">
           <Work />
         </div>

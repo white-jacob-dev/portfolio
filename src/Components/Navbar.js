@@ -51,20 +51,6 @@ function Navbar({ handleMenu, showMenu }) {
               About
             </Link>
           </Fade>
-          <Fade top delay={600}>
-            <Link
-              href="#skills"
-              activeClass="underline decoration-4 decoration-blue-400 underline-offset-4 text-blue-700"
-              to="skills"
-              spy={true}
-              smooth={true}
-              duration={1000}
-              offset={-100}
-              className=" transition-all duration-500 hover:text-blue-700 tracking-tighter"
-            >
-              Skills
-            </Link>
-          </Fade>
 
           <Fade top delay={800}>
             <Link

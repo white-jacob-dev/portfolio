@@ -4,11 +4,7 @@ import Fade from 'react-reveal/Fade';
 export function Intro({}) {
   return (
     <>
-      <section
-        href="#intro"
-        id="intro"
-        className="h-screen md:h-fit lg:h-screen flex flex-col justify-center text-left space-y-4 md:items-start md:text-left"
-      >
+      <section href="#intro" id="intro" className="h-screen flex flex-col justify-center text-left space-y-4 md:items-start md:text-left">
         <Fade top delay={2000}>
           <div className="text-left self-start font-ooohbaby text-3xl text-slate-400">&lt;intro&gt;</div>
         </Fade>
@@ -26,7 +22,7 @@ export function Intro({}) {
           </Fade>
         </div>
         <Fade clear delay={3600}>
-          <p className="text-md md:text-xl font-light tracking-tight whitespace-normal md:w-3/5">
+          <p className="text-sm md:text-xl font-light tracking-tight whitespace-normal md:w-3/5">
             I'm a <span className="text-blue-700">ui/ux designer</span> and <span className="text-blue-700">front-end developer</span> who creates
             unique & interactive digital experiences with a human-centered approach. Currently, I'm focused on designing and building world-class
             applications with my team at <span className="text-blue-700">M&S Consulting.</span>
