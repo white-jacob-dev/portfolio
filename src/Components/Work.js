@@ -442,7 +442,7 @@ export function Work() {
               <div>
                 <a
                   className="w-full flex flex-row justify-end items-end relative"
-                  href="https://apps.apple.com/us/app/gigup/id1603502689"
+                  href="https://apps.apple.com/us/app/gogh-tech/id1597648868"
                   target="_blank"
                 >
                   <img src={goghdesktop} className="rounded-3xl bg-slate-100 shadow-lg"></img>
@@ -513,11 +513,7 @@ export function Work() {
             </div>
             <Fade right delay={4000}>
               <div>
-                <a
-                  className="w-full flex flex-row justify-end items-end relative"
-                  href="https://apps.apple.com/us/app/gigup/id1603502689"
-                  target="_blank"
-                >
+                <a className="w-full flex flex-row justify-end items-end relative" href="https://iconicair.io/" target="_blank">
                   <img src={iconicairdesktop} className="rounded-3xl bg-slate-100 shadow-lg"></img>
                   <div className="absolute top-6 right-6 h-12 w-12 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
                     <img src={link} className="h-6"></img>
@@ -578,11 +574,7 @@ export function Work() {
             </div>
             <Fade right delay={3600}>
               <div>
-                <a
-                  className="w-full flex flex-row justify-end items-end relative"
-                  href="https://apps.apple.com/us/app/gigup/id1603502689"
-                  target="_blank"
-                >
+                <a className="w-full flex flex-row justify-end items-end relative" href="https://www.fingy3d.com/" target="_blank">
                   <img src={fingy3ddesktop} className="rounded-3xl bg-slate-100 shadow-lg"></img>
                   <div className="absolute top-6 right-6 h-12 w-12 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
                     <img src={link} className="h-6"></img>
