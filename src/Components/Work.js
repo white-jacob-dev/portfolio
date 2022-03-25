@@ -33,7 +33,7 @@ export function Work() {
         <Fade top delay={400}>
           <div className="flex flex-row space-x-4 items-center">
             <div className="text-left font-ooohbaby text-3xl text-slate-400">&lt;work&gt;</div>
-            <div className="h-0.5 w- lg:w-1/4 bg-gray-100"></div>
+            <div className="h-0.5 lg:w-0 bg-gray-100"></div>
           </div>
         </Fade>
         <div className="space-y-12 lg:hidden">
@@ -41,10 +41,10 @@ export function Work() {
             <div className="flex flex-col space-y-4 justify-between">
               <div className="flex flex-row justify-between">
                 <Fade clear delay={800}>
-                  <div className="text-5xl font-bold text-left">GigUp</div>
+                  <div className="text-5xl font-bold text-left dark:text-slate-200">GigUp</div>
                 </Fade>
                 <Fade clear delay={1200}>
-                  <div className="text-xs basis-1/5 font-semibold text-right self-end">Web & Mobile Development</div>
+                  <div className="text-xs basis-1/5 font-semibold text-right self-end dark:text-slate-200">Web & Mobile Development</div>
                 </Fade>
               </div>
               <Fade clear delay={1600}>
@@ -58,7 +58,7 @@ export function Work() {
             <Fade clear delay={2000}>
               <div>
                 <a href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank" className="relative z-0">
-                  <img src={gigupmobile} className="w-full bg-slate-100 rounded-2xl shadow-lg"></img>
+                  <img src={gigupmobile} className="w-full bg-slate-100 dark:bg-slate-900 rounded-2xl shadow-lg"></img>
                   <div className="absolute top-2 left-2 lg:h-10 lg:w-10 rounded-full lg:bg-blue-700 shadow-xl z-10 flex justify-center items-center">
                     <img src={link} className="h-6"></img>
                   </div>
@@ -68,7 +68,7 @@ export function Work() {
 
             <div className="flex flex-row justify-start space-x-4">
               <Fade clear delay={2400}>
-                <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={react} className="max-h-6"></img>
                   </div>
@@ -76,7 +76,7 @@ export function Work() {
                 </div>
               </Fade>
               <Fade clear delay={2800}>
-                <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={firebase} className="max-h-7"></img>
                   </div>
@@ -84,7 +84,7 @@ export function Work() {
                 </div>
               </Fade>
               <Fade clear delay={3200}>
-                <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={mui} className="max-h-6"></img>
                   </div>
@@ -92,7 +92,7 @@ export function Work() {
                 </div>
               </Fade>{' '}
               <Fade clear delay={3600}>
-                <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={formik} className="max-h-6"></img>
                   </div>
@@ -100,7 +100,7 @@ export function Work() {
                 </div>
               </Fade>
               <Fade clear delay={4000}>
-                <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={expo} className="max-h-5"></img>
                   </div>
@@ -113,10 +113,10 @@ export function Work() {
             <div className="flex flex-col space-y-4 justify-between">
               <div className="flex flex-row justify-between">
                 <Fade clear delay={800}>
-                  <div className="text-5xl font-bold text-left">Gogh</div>
+                  <div className="text-5xl font-bold text-left dark:text-slate-200">Gogh</div>
                 </Fade>
                 <Fade clear delay={1200}>
-                  <div className="text-xs basis-1/5 font-semibold text-right self-end">Web & Mobile Development</div>
+                  <div className="text-xs basis-1/5 font-semibold text-right self-end dark:text-slate-200">Web & Mobile Development</div>
                 </Fade>
               </div>
               <Fade clear delay={1600}>
@@ -130,7 +130,7 @@ export function Work() {
             <Fade clear delay={2000}>
               <div>
                 <a href="https://apps.apple.com/us/app/gogh-tech/id1597648868" target="_blank" className="relative z-0">
-                  <img src={goghmobile} className="w-full bg-slate-100 rounded-2xl shadow-lg"></img>
+                  <img src={goghmobile} className="w-full bg-slate-100 dark:bg-slate-900 rounded-2xl shadow-lg"></img>
                   <div className="absolute top-2 left-2 lg:h-10 lg:w-10 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
                     <img src={link} className="h-6"></img>
                   </div>
@@ -140,7 +140,7 @@ export function Work() {
 
             <div className="flex flex-row justify-start space-x-4">
               <Fade clear delay={2400}>
-                <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={react} className="max-h-6"></img>
                   </div>
@@ -148,7 +148,7 @@ export function Work() {
                 </div>
               </Fade>
               <Fade clear delay={2800}>
-                <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={nodejs} className="max-h-6"></img>
                   </div>
@@ -156,7 +156,7 @@ export function Work() {
                 </div>
               </Fade>
               <Fade clear delay={3200}>
-                <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={sass} className="max-h-6"></img>
                   </div>
@@ -164,7 +164,7 @@ export function Work() {
                 </div>
               </Fade>
               <Fade clear delay={3600}>
-                <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={formik} className="max-h-6"></img>
                   </div>
@@ -172,7 +172,7 @@ export function Work() {
                 </div>
               </Fade>
               <Fade clear delay={4000}>
-                <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={expo} className="max-h-5"></img>
                   </div>
@@ -185,10 +185,10 @@ export function Work() {
             <div className="flex flex-col space-y-4 justify-between">
               <div className="flex flex-row justify-between">
                 <Fade clear delay={800}>
-                  <div className="text-5xl font-bold text-left">Iconic Air</div>
+                  <div className="text-5xl font-bold text-left dark:text-slate-200">Iconic Air</div>
                 </Fade>
                 <Fade clear delay={1200}>
-                  <div className="text-xs basis-1/5 font-semibold text-right self-end">Web Development</div>
+                  <div className="text-xs basis-1/5 font-semibold text-right self-end dark:text-slate-200">Web Development</div>
                 </Fade>
               </div>
               <Fade clear delay={1600}>
@@ -202,7 +202,7 @@ export function Work() {
             <Fade clear delay={2000}>
               <div>
                 <a href="https://iconicair.io/" target="_blank" className="relative z-0">
-                  <img src={iconicairmobile} className="w-full bg-slate-100 rounded-2xl shadow-lg"></img>
+                  <img src={iconicairmobile} className="w-full bg-slate-100 dark:bg-slate-900 rounded-2xl shadow-lg"></img>
                   <div className="absolute top-2 left-2 lg:h-10 lg:w-10 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
                     <img src={link} className="h-6"></img>
                   </div>
@@ -212,7 +212,7 @@ export function Work() {
 
             <div className="flex flex-row justify-start space-x-4">
               <Fade clear delay={2400}>
-                <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={angular} className="max-h-6"></img>
                   </div>
@@ -220,7 +220,7 @@ export function Work() {
                 </div>
               </Fade>
               <Fade clear delay={2800}>
-                <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={typescript} className="max-h-5"></img>
                   </div>
@@ -228,7 +228,7 @@ export function Work() {
                 </div>
               </Fade>
               <Fade clear delay={3200}>
-                <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={tailwind} className="max-h-6"></img>
                   </div>
@@ -236,7 +236,7 @@ export function Work() {
                 </div>
               </Fade>
               <Fade clear delay={3600}>
-                <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={firebase} className="max-h-7"></img>
                   </div>
@@ -244,7 +244,7 @@ export function Work() {
                 </div>
               </Fade>
               <Fade clear delay={4000}>
-                <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={chartjs} className="max-h-6"></img>
                   </div>
@@ -257,10 +257,10 @@ export function Work() {
             <div className="flex flex-col space-y-4 justify-between">
               <div className="flex flex-row justify-between">
                 <Fade clear delay={800}>
-                  <div className="text-5xl font-bold text-left">Fingy3D</div>
+                  <div className="text-5xl font-bold text-left dark:text-slate-200">Fingy3D</div>
                 </Fade>{' '}
                 <Fade clear delay={800}>
-                  <div className="text-xs basis-1/5 font-semibold text-right self-end">Web Development</div>
+                  <div className="text-xs basis-1/5 font-semibold text-right self-end dark:text-slate-200">Web Development</div>
                 </Fade>
               </div>
               <Fade clear delay={800}>
@@ -274,7 +274,7 @@ export function Work() {
             <Fade clear delay={800}>
               <div>
                 <a href="https://www.fingy3d.com/" target="_blank" className="relative z-0">
-                  <img src={fingy3dmobile} className="w-full bg-slate-100 rounded-2xl shadow-lg"></img>
+                  <img src={fingy3dmobile} className="w-full bg-slate-100 dark:bg-slate-900 rounded-2xl shadow-lg"></img>
                   <div className="absolute top-2 left-2 lg:h-10 lg:w-10 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
                     <img src={link} className="h-6"></img>
                   </div>
@@ -284,7 +284,7 @@ export function Work() {
 
             <div className="flex flex-row justify-start space-x-4">
               <Fade clear delay={800}>
-                <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={javascript} className="max-h-5"></img>
                   </div>
@@ -292,7 +292,7 @@ export function Work() {
                 </div>
               </Fade>{' '}
               <Fade clear delay={800}>
-                <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={html} className="max-h-7"></img>
                   </div>
@@ -300,7 +300,7 @@ export function Work() {
                 </div>
               </Fade>{' '}
               <Fade clear delay={800}>
-                <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={css} className="max-h-7"></img>
                   </div>
@@ -308,7 +308,7 @@ export function Work() {
                 </div>
               </Fade>{' '}
               <Fade clear delay={800}>
-                <div className="bg-white rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
+                <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={jquery} className="max-h-6"></img>
                   </div>
@@ -322,10 +322,10 @@ export function Work() {
           <div className="flex flex-row space-evenly space-x-4">
             <div className="w-fit flex flex-col text-left justify-center space-y-4">
               <Fade clear delay={800}>
-                <div className="text-5xl font-bold tracking-tight">GigUp</div>
+                <div className="text-5xl font-bold tracking-tight dark:text-slate-200">GigUp</div>
               </Fade>{' '}
               <Fade clear delay={1200}>
-                <div className="text-2xl font-light tracking-tight -space-y-2">Web & Mobile Development</div>
+                <div className="text-2xl font-light tracking-tight -space-y-2 dark:text-slate-200">Web & Mobile Development</div>
               </Fade>{' '}
               <Fade clear delay={1600}>
                 <div className="py-6 px-6 bg-blue-600 text-white text-lg font-base tracking-tight rounded-lg shadow-lg ">
@@ -336,7 +336,7 @@ export function Work() {
               </Fade>
               <div className="flex flex-row justify-start space-x-4">
                 <Fade clear delay={2000}>
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
                       <img src={react} className="max-h-9"></img>
                     </div>
@@ -344,7 +344,7 @@ export function Work() {
                   </div>
                 </Fade>{' '}
                 <Fade clear delay={2400}>
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
                       <img src={firebase} className="max-h-12"></img>
                     </div>
@@ -352,7 +352,7 @@ export function Work() {
                   </div>
                 </Fade>{' '}
                 <Fade clear delay={2800}>
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
                       <img src={mui} className="max-h-9"></img>
                     </div>
@@ -360,7 +360,7 @@ export function Work() {
                   </div>
                 </Fade>{' '}
                 <Fade clear delay={3200}>
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
                       <img src={expo} className="max-h-8"></img>
                     </div>
@@ -372,7 +372,7 @@ export function Work() {
             <Fade right delay={3600}>
               <div>
                 <a className="flex flex-row justify-end items-end relative" href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank">
-                  <img src={gigupdesktop} className="w-fit rounded-3xl bg-slate-100 shadow-lg z-0"></img>
+                  <img src={gigupdesktop} className="w-fit rounded-3xl bg-slate-100 dark:bg-slate-900 shadow-lg z-0"></img>
                   <div className="absolute top-6 right-6 h-12 w-12 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
                     <img src={link} className="h-6"></img>
                   </div>
@@ -383,10 +383,10 @@ export function Work() {
           <div className="flex flex-row space-evenly space-x-4">
             <div className="w-fit flex flex-col text-left justify-center space-y-4">
               <Fade clear delay={800}>
-                <div className="text-5xl font-bold tracking-tight">Gogh</div>
+                <div className="text-5xl font-bold tracking-tight dark:text-slate-200">Gogh</div>
               </Fade>{' '}
               <Fade clear delay={1200}>
-                <div className="text-2xl font-light tracking-tight -space-y-2">Web & Mobile Development</div>
+                <div className="text-2xl font-light tracking-tight -space-y-2 dark:text-slate-200">Web & Mobile Development</div>
               </Fade>{' '}
               <Fade clear delay={1600}>
                 <div className="py-6 px-6 bg-blue-600 text-white text-lg font-base tracking-tight rounded-lg shadow-lg ">
@@ -397,7 +397,7 @@ export function Work() {
               </Fade>
               <div className="flex flex-row justify-start space-x-4">
                 <Fade clear delay={2000}>
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
                       <img src={react} className="max-h-9"></img>
                     </div>
@@ -405,7 +405,7 @@ export function Work() {
                   </div>
                 </Fade>{' '}
                 <Fade clear delay={2400}>
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
                       <img src={nodejs} className="max-h-12"></img>
                     </div>
@@ -413,7 +413,7 @@ export function Work() {
                   </div>
                 </Fade>{' '}
                 <Fade clear delay={2800}>
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
                       <img src={sass} className="max-h-11"></img>
                     </div>
@@ -421,7 +421,7 @@ export function Work() {
                   </div>
                 </Fade>{' '}
                 <Fade clear delay={3200}>
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
                       <img src={formik} className="max-h-9"></img>
                     </div>
@@ -429,7 +429,7 @@ export function Work() {
                   </div>
                 </Fade>{' '}
                 <Fade clear delay={3600}>
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
                       <img src={expo} className="max-h-8"></img>
                     </div>
@@ -445,7 +445,7 @@ export function Work() {
                   href="https://apps.apple.com/us/app/gogh-tech/id1597648868"
                   target="_blank"
                 >
-                  <img src={goghdesktop} className="rounded-3xl bg-slate-100 shadow-lg"></img>
+                  <img src={goghdesktop} className="rounded-3xl dark:bg-slate-900 shadow-lg"></img>
                   <div className="absolute top-6 right-6 h-12 w-12 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
                     <img src={link} className="h-6"></img>
                   </div>
@@ -456,10 +456,10 @@ export function Work() {
           <div className="flex flex-row space-evenly space-x-4">
             <div className="w-fit flex flex-col text-left justify-center space-y-4">
               <Fade clear delay={800}>
-                <div className="text-5xl font-bold tracking-tight">Iconic Air</div>
+                <div className="text-5xl font-bold tracking-tight dark:text-slate-200">Iconic Air</div>
               </Fade>{' '}
               <Fade clear delay={1200}>
-                <div className="text-2xl font-light tracking-tight -space-y-2">Web & Mobile Development</div>
+                <div className="text-2xl font-light tracking-tight -space-y-2 dark:text-slate-200">Web & Mobile Development</div>
               </Fade>{' '}
               <Fade clear delay={1600}>
                 <div className="py-6 px-6 bg-blue-600 text-white text-lg font-base tracking-tight rounded-lg shadow-lg ">
@@ -470,7 +470,7 @@ export function Work() {
               </Fade>
               <div className="flex flex-row justify-start space-x-4">
                 <Fade clear delay={2000}>
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
                       <img src={angular} className="max-h-11"></img>
                     </div>
@@ -478,7 +478,7 @@ export function Work() {
                   </div>
                 </Fade>
                 <Fade clear delay={2400}>
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
                       <img src={typescript} className="max-h-8"></img>
                     </div>
@@ -486,7 +486,7 @@ export function Work() {
                   </div>
                 </Fade>
                 <Fade clear delay={2800}>
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
                       <img src={tailwind} className="max-h-11"></img>
                     </div>
@@ -494,7 +494,7 @@ export function Work() {
                   </div>
                 </Fade>
                 <Fade clear delay={3200}>
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
                       <img src={firebase} className="max-h-12"></img>
                     </div>
@@ -502,7 +502,7 @@ export function Work() {
                   </div>
                 </Fade>
                 <Fade clear delay={3600}>
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
                       <img src={chartjs} className="max-h-11"></img>
                     </div>
@@ -514,7 +514,7 @@ export function Work() {
             <Fade right delay={4000}>
               <div>
                 <a className="w-full flex flex-row justify-end items-end relative" href="https://iconicair.io/" target="_blank">
-                  <img src={iconicairdesktop} className="rounded-3xl bg-slate-100 shadow-lg"></img>
+                  <img src={iconicairdesktop} className="rounded-3xl bg-slate-100 dark:bg-slate-900 shadow-lg"></img>
                   <div className="absolute top-6 right-6 h-12 w-12 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
                     <img src={link} className="h-6"></img>
                   </div>
@@ -525,10 +525,10 @@ export function Work() {
           <div className="flex flex-row space-evenly space-x-4">
             <div className="w-fit flex flex-col text-left justify-center space-y-4">
               <Fade clear delay={800}>
-                <div className="text-5xl font-bold tracking-tight">Fingy3D</div>
+                <div className="text-5xl font-bold tracking-tight dark:text-slate-200">Fingy3D</div>
               </Fade>
               <Fade clear delay={1200}>
-                <div className="text-2xl font-light tracking-tight -space-y-2">Web & Mobile Development</div>
+                <div className="text-2xl font-light tracking-tight -space-y-2 dark:text-slate-200">Web & Mobile Development</div>
               </Fade>
               <Fade clear delay={1600}>
                 <div className="py-6 px-6 bg-blue-600 text-white text-lg font-base tracking-tight rounded-lg shadow-lg ">
@@ -539,7 +539,7 @@ export function Work() {
               </Fade>
               <div className="flex flex-row justify-start space-x-4">
                 <Fade clear delay={2000}>
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
                       <img src={javascript} className="max-h-8"></img>
                     </div>
@@ -547,7 +547,7 @@ export function Work() {
                   </div>
                 </Fade>
                 <Fade clear delay={2400}>
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
                       <img src={html} className="max-h-11"></img>
                     </div>
@@ -555,7 +555,7 @@ export function Work() {
                   </div>
                 </Fade>
                 <Fade clear delay={2800}>
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
                       <img src={css} className="max-h-11"></img>
                     </div>
@@ -563,7 +563,7 @@ export function Work() {
                   </div>
                 </Fade>
                 <Fade clear delay={3200}>
-                  <div className="bg-white rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
+                  <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-20 h-20 flex flex-col p-2 justify-evenly  transition-all duration-500 hover:scale-110">
                     <div className="w-full h-full flex justify-center items-center">
                       <img src={jquery} className="max-h-8"></img>
                     </div>
@@ -575,7 +575,7 @@ export function Work() {
             <Fade right delay={3600}>
               <div>
                 <a className="w-full flex flex-row justify-end items-end relative" href="https://www.fingy3d.com/" target="_blank">
-                  <img src={fingy3ddesktop} className="rounded-3xl bg-slate-100 shadow-lg"></img>
+                  <img src={fingy3ddesktop} className="rounded-3xl bg-slate-100 dark:bg-slate-900 shadow-lg "></img>
                   <div className="absolute top-6 right-6 h-12 w-12 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
                     <img src={link} className="h-6"></img>
                   </div>

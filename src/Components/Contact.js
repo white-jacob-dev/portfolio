@@ -1,8 +1,10 @@
 import React, { Suspense } from 'react';
 import Fade from 'react-reveal/Fade';
-import github from '../Assets/github.svg';
-import linkedin from '../Assets/linkedin.svg';
+// import github from '../Assets/github.svg';
+// import linkedin from '../Assets/linkedin.svg';
 import netlifyblack from '../Assets/netlifyblack.svg';
+import { ReactComponent as Linkedin } from '../Assets/linkedin.svg';
+import { ReactComponent as Github } from '../Assets/github.svg';
 
 export function Contact({}) {
   return (
@@ -21,7 +23,7 @@ export function Contact({}) {
                 <div className="text-blue-400 font-semibold tracking-tighter">Thanks for checking out my portfolio!</div>
               </Fade>
               <Fade clear delay={1600}>
-                <div className="py-2">
+                <div className="py-2 dark:text-slate-200">
                   If you want to get in contact with me, or simply just say hello, feel free to with the button below. I'll always do my best to get
                   back to you as soon as I can.
                 </div>
@@ -42,7 +44,7 @@ export function Contact({}) {
         </section>
       </div>
       <Fade bottom delay={0}>
-        <div className="-mt-16 h-16 md:mt-32 lg:-mt-24 md:h-24 pb-16 md:pb-8 w-full lg:w-screen flex flex-row justify-center items-center space-x-4 font-light tracking-tight">
+        <div className="-mt-16 h-16 md:mt-32 lg:-mt-24 md:h-24 pb-16 md:pb-8 w-full lg:w-screen flex flex-row justify-center items-center space-x-4 font-light tracking-tight dark:text-slate-200">
           <div className="flex flex-col justify-center items-center space-y-2">
             <div className="flex flex-col justify-center items-center">
               <div className="font-semibold text-xs md:text-base">Designed & Built by Jacob White</div>
@@ -52,14 +54,17 @@ export function Contact({}) {
               <div>
                 <div className="w-full h-full flex justify-center">
                   <a href="https://github.com/white-jacob-dev" target="_blank">
-                    <img src={github} className="max-h-6 md:max-h-12"></img>
+                    {/* <img src={github} className="max-h-6 md:max-h-12"></img> */}
+                    <Github className="fill-black dark:fill-slate-200" />
                   </a>
                 </div>
               </div>
+
               <div>
                 <div className="w-full h-full flex justify-center">
                   <a href="https://www.linkedin.com/in/jacob-white-developer/" target="_blank">
-                    <img src={linkedin} className="max-h-12"></img>
+                    <Linkedin className="fill-black dark:fill-slate-200" />
+                    {/* <img src={linkedin} className="max-h-12"></img> */}
                   </a>
                 </div>
               </div>
@@ -72,7 +77,7 @@ export function Contact({}) {
                       alt="Deploys by Netlify"
                       className="max-h-6"
                     />
-                  </a>{' '}
+                  </a>
                 </div>
               </div>
             </div>

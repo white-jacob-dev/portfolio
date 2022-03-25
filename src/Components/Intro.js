@@ -4,7 +4,11 @@ import Fade from 'react-reveal/Fade';
 export function Intro({}) {
   return (
     <>
-      <section href="#intro" id="intro" className="h-screen flex flex-col justify-center text-left space-y-4 md:items-start md:text-left">
+      <section
+        href="#intro"
+        id="intro"
+        className="h-screen flex flex-col justify-center text-left space-y-4 md:items-start md:text-left dark:text-slate-200"
+      >
         <Fade top delay={2000}>
           <div className="text-left self-start font-ooohbaby text-3xl text-slate-400">&lt;intro&gt;</div>
         </Fade>
