@@ -259,11 +259,11 @@ export function Work() {
                 <Fade clear delay={800}>
                   <div className="text-5xl font-bold text-left dark:text-slate-200">Fingy3D</div>
                 </Fade>{' '}
-                <Fade clear delay={800}>
+                <Fade clear delay={1200}>
                   <div className="text-xs basis-1/5 font-semibold text-right self-end dark:text-slate-200">Web Development</div>
                 </Fade>
               </div>
-              <Fade clear delay={800}>
+              <Fade clear delay={1600}>
                 <div className="basis-3/5 text-left text-white text-xs font-base py-3 px-4 bg-blue-600  rounded-lg shadow-lg">
                   Fingy3D aims to bring accessible and affordable finger prosthetics to everyone using 3D printing and a custom-built hand scanner.
                   The hand scanner uses a piece of 8"x11" paper and your phone's camera to accurately measure your finger prosthetic sizing, which we
@@ -271,7 +271,7 @@ export function Work() {
                 </div>
               </Fade>
             </div>
-            <Fade clear delay={800}>
+            <Fade clear delay={2000}>
               <div>
                 <a href="https://www.fingy3d.com/" target="_blank" className="relative z-0">
                   <img src={fingy3dmobile} className="w-full bg-slate-100 dark:bg-slate-900 rounded-2xl shadow-lg"></img>
@@ -283,7 +283,7 @@ export function Work() {
             </Fade>
 
             <div className="flex flex-row justify-start space-x-4">
-              <Fade clear delay={800}>
+              <Fade clear delay={2400}>
                 <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={javascript} className="max-h-5"></img>
@@ -291,7 +291,7 @@ export function Work() {
                   <div className="text-center text-xxs">JavaScript</div>
                 </div>
               </Fade>{' '}
-              <Fade clear delay={800}>
+              <Fade clear delay={2800}>
                 <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={html} className="max-h-7"></img>
@@ -299,7 +299,7 @@ export function Work() {
                   <div className="text-center text-xxs">HTML</div>
                 </div>
               </Fade>{' '}
-              <Fade clear delay={800}>
+              <Fade clear delay={3200}>
                 <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={css} className="max-h-7"></img>
@@ -307,7 +307,7 @@ export function Work() {
                   <div className="text-center text-xxs">CSS</div>
                 </div>
               </Fade>{' '}
-              <Fade clear delay={800}>
+              <Fade clear delay={3600}>
                 <div className="bg-white dark:bg-slate-900 dark:text-slate-200 rounded-lg shadow-lg w-12 h-12 flex flex-col p-1 justify-evenly  transition-all duration-500 hover:scale-110">
                   <div className="w-full h-full flex justify-center items-center">
                     <img src={jquery} className="max-h-6"></img>
