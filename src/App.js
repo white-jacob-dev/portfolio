@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from './Components/Navbar';
 import MobileNav from './Components/MobileNav';
 import Intro from './Components/Intro';
@@ -9,6 +9,7 @@ import Contact from './Components/Contact';
 
 function App() {
   const [showMenu, setShowMenu] = useState(false);
+
   function handleMenu() {
     setShowMenu(!showMenu);
   }

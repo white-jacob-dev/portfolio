@@ -3,10 +3,38 @@ import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import { Fade as Hamburger } from 'hamburger-react';
 import resume from '../Assets/resume.pdf';
-import { ReactComponent as Github } from '../Assets/github.svg';
+import Switch from 'react-switch';
+import { ReactComponent as Moon } from '../Assets/moon.svg';
 
 function Navbar({ handleMenu, showMenu }) {
   const [introActive, setIntroActive] = useState(false);
+  const [checked, setChecked] = useState(false);
+  const root = window.document.documentElement;
+  const lightTheme = 'light';
+  const darkTheme = 'dark';
+  let theme;
+
+  if (localStorage) {
+    theme = localStorage.getItem('theme');
+  }
+  if (theme === lightTheme || theme === darkTheme) {
+    root.classList.add(theme);
+  } else {
+    root.classList.add(lightTheme);
+  }
+
+  const handleChange = () => {
+    if (theme === darkTheme) {
+      root.classList.replace(darkTheme, lightTheme);
+      localStorage.setItem('theme', 'light');
+      theme = lightTheme;
+      setChecked(false);
+    } else {
+      root.classList.replace(lightTheme, darkTheme);
+      localStorage.setItem('theme', 'dark');
+      setChecked(true);
+    }
+  };
 
   return (
     <div>
@@ -18,11 +46,19 @@ function Navbar({ handleMenu, showMenu }) {
             </svg>
           </Link>
         </Fade>
-        <Fade top delay={400}>
-          <div className="flex flex-row md:hidden mr-6 text-black dark:text-slate-200">
+        <div className="flex flex-row justify-center items-center align-center md:hidden space-x-4 mr-6 text-black dark:text-slate-200">
+          <Fade top delay={400}>
+            <button
+              onClick={handleChange}
+              className="dark:bg-blue-700 bg-transparent border-2 border-black dark:border-blue-700 py-1 px-2 rounded-lg shadow-lg"
+            >
+              <Moon className="w-6 h-6 fill-black dark:fill-slate-200" />
+            </button>
+          </Fade>
+          <Fade top delay={800}>
             <Hamburger toggled={showMenu} toggle={handleMenu} />
-          </div>
-        </Fade>
+          </Fade>
+        </div>
         <div className="hidden md:flex flex-row items-center space-x-8 text-md mr-12 dark:text-slate-200">
           <Fade top delay={200}>
             <Link
@@ -81,8 +117,12 @@ function Navbar({ handleMenu, showMenu }) {
               Contact
             </Link>
           </Fade>
-
           <Fade top delay={1200}>
+            <button onClick={handleChange} className="dark:bg-blue-700 bg-transparent border-2 border-blue-700 py-1 px-2 rounded-lg shadow-lg">
+              <Moon className="w-5 h-5 fill-black dark:fill-slate-200" />
+            </button>
+          </Fade>
+          <Fade top delay={1400}>
             <a href={resume} target="_blank">
               <button className="self-start py-1 px-2 bg-blue-700 text-white rounded-lg shadow-lg text-md tracking-tight">Resume</button>
             </a>
