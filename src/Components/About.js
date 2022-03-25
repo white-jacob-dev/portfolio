@@ -72,8 +72,8 @@ export function About({}) {
             </Fade>
             <Fade clear delay={2400}>
               <div>
-                The breadthe of my work has given me <span className="text-blue-700 font-bold">experience with many different technologies</span>.
-                Here are some of the ones I've used recently:
+                The breadth of my work has given me <span className="text-blue-700 font-bold">experience with many different technologies</span>. Here
+                are some of the ones I've used recently:
               </div>
             </Fade>
           </div>
