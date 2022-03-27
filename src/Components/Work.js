@@ -24,6 +24,8 @@ import jquery from '../Assets/jquery.svg';
 import html from '../Assets/html.svg';
 import css from '../Assets/css.svg';
 import javascript from '../Assets/javascript.svg';
+import { ReactComponent as Link } from '../Assets/link.svg';
+import { ReactComponent as Github } from '../Assets/github.svg';
 import link from '../Assets/link.svg';
 
 export function Work() {
@@ -315,6 +317,66 @@ export function Work() {
                   <div className="text-center text-xxs">jQuery</div>
                 </div>
               </Fade>
+            </div>
+          </div>
+          <div className="w-full bg-white h-fit rounded-xl border-4 border-blue-600 shadow-lg py-3 px-4">
+            <div className="flex flex-row justify-between items-center pb-4">
+              <div className="text-5xl font-bold">Mirror</div>
+              <div className="flex flex-row space-x-4 items-center">
+                <div>
+                  <a href="https://github.com/white-jacob-dev/mirror" target="_blank">
+                    <Github />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="text-xs text-blue-700">
+              A project made to update me on FC Barcelona's next match information, including formatted date of next match, formatted kickoff time in
+              EST, opponent, location, countdown timer, and a complex, purely vanilla dark mode animation. A neomorphic design was used throughout and
+              puppeteer was used to fetch the data from FC Barcelona's official website.
+            </div>
+          </div>
+          <div className="w-full bg-white h-fit rounded-xl border-4 border-blue-600 shadow-lg py-3 px-4">
+            <div className="flex flex-row justify-between items-center pb-4">
+              <div className="text-5xl font-bold">Food</div>
+              <div className="flex flex-row space-x-4 items-center">
+                <div>
+                  <a href="https://github.com/white-jacob-dev/food" target="_blank">
+                    <Github />
+                  </a>
+                </div>
+                <div>
+                  <a href="https://food-solver.netlify.app/" target="_blank">
+                    <Link className="w-7" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="text-xs text-blue-700">
+              A project I made to solve the ancient problem of not being able to decide where to eat with your significant other. The project uses
+              React, Redux and the Google Places API to generate a list of the 20 closest restaurants to your current location that you can then sort
+              through with your partner systematically.
+            </div>
+          </div>
+          <div className="w-full bg-white h-fit rounded-xl border-4 border-blue-600 shadow-lg py-3 px-4">
+            <div className="flex flex-row justify-between items-center pb-4">
+              <div className="text-5xl font-bold">Fire-Auth</div>
+              <div className="flex flex-row space-x-4 items-center">
+                <div>
+                  <a href="https://github.com/white-jacob-dev/mirror" target="_blank">
+                    <Github />
+                  </a>
+                </div>
+                <div>
+                  <a href="https://github.com/white-jacob-dev/mirror" target="_blank">
+                    <Link className="w-7" />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="text-xs text-blue-700">
+              A small project that shows a fully functioning authentication front-end using firebase. Includes a persistent user log in as well as
+              password resets and a log out system. Built with React, React Paper, and Firebase.
             </div>
           </div>
         </div>
