@@ -61,9 +61,6 @@ export function Work() {
               <div>
                 <a href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank" className="relative z-0">
                   <img src={gigupmobile} className="w-full bg-slate-100 dark:bg-slate-900 rounded-2xl shadow-lg"></img>
-                  <div className="absolute top-2 left-4 h-10 w-10 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
-                    <Link className="h-6 fill-white" />
-                  </div>
                 </a>
               </div>
             </Fade>
@@ -133,9 +130,6 @@ export function Work() {
               <div>
                 <a href="https://apps.apple.com/us/app/gogh-tech/id1597648868" target="_blank" className="relative z-0">
                   <img src={goghmobile} className="w-full bg-slate-100 dark:bg-slate-900 rounded-2xl shadow-lg"></img>
-                  <div className="absolute top-2 left-4 h-10 w-10 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
-                    <Link className="h-6 fill-white" />
-                  </div>
                 </a>
               </div>
             </Fade>
@@ -205,9 +199,6 @@ export function Work() {
               <div>
                 <a href="https://iconicair.io/" target="_blank" className="relative z-0">
                   <img src={iconicairmobile} className="w-full bg-slate-100 dark:bg-slate-900 rounded-2xl shadow-lg"></img>
-                  <div className="absolute top-2 left-4 h-10 w-10 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
-                    <Link className="h-6 fill-white" />
-                  </div>
                 </a>
               </div>
             </Fade>
@@ -277,9 +268,6 @@ export function Work() {
               <div>
                 <a href="https://www.fingy3d.com/" target="_blank" className="relative z-0">
                   <img src={fingy3dmobile} className="w-full bg-slate-100 dark:bg-slate-900 rounded-2xl shadow-lg"></img>
-                  <div className="absolute top-2 left-4 h-10 w-10 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
-                    <Link className="h-6 fill-white" />
-                  </div>
                 </a>
               </div>
             </Fade>
