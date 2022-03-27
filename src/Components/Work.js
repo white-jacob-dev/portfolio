@@ -379,6 +379,23 @@ export function Work() {
               password resets and a log out system. Built with React, React Paper, and Firebase.
             </div>
           </div>
+          <div className="w-full bg-white h-fit rounded-xl border-4 border-blue-600 shadow-lg py-3 px-4">
+            <div className="flex flex-row justify-between items-center pb-4">
+              <div className="text-5xl font-bold">Arnold</div>
+              <div className="flex flex-row space-x-4 items-center">
+                <div>
+                  <a href="https://github.com/white-jacob-dev/arnold" target="_blank">
+                    <Github />
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="text-xs text-blue-700">
+              A mobile application built to be a simple, gym exercise tracker. Includes a list of recent exercises that contains date, weight, sets
+              and reps, as well as folders that can contain multiple exercises that belong to a certain category (legs, arms, shoulders, etc.). Built
+              with react-native.
+            </div>
+          </div>
         </div>
         <div className="hidden lg:block space-y-32">
           <div className="flex flex-row space-evenly space-x-4">
