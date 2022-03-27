@@ -61,8 +61,8 @@ export function Work() {
               <div>
                 <a href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank" className="relative z-0">
                   <img src={gigupmobile} className="w-full bg-slate-100 dark:bg-slate-900 rounded-2xl shadow-lg"></img>
-                  <div className="absolute top-2 left-2 lg:h-10 lg:w-10 rounded-full lg:bg-blue-700 shadow-xl z-10 flex justify-center items-center">
-                    <img src={link} className="h-6"></img>
+                  <div className="absolute top-2 left-4 h-10 w-10 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
+                    <Link className="h-6 fill-white" />
                   </div>
                 </a>
               </div>
@@ -133,8 +133,8 @@ export function Work() {
               <div>
                 <a href="https://apps.apple.com/us/app/gogh-tech/id1597648868" target="_blank" className="relative z-0">
                   <img src={goghmobile} className="w-full bg-slate-100 dark:bg-slate-900 rounded-2xl shadow-lg"></img>
-                  <div className="absolute top-2 left-2 lg:h-10 lg:w-10 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
-                    <img src={link} className="h-6"></img>
+                  <div className="absolute top-2 left-4 h-10 w-10 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
+                    <Link className="h-6 fill-white" />
                   </div>
                 </a>
               </div>
@@ -205,8 +205,8 @@ export function Work() {
               <div>
                 <a href="https://iconicair.io/" target="_blank" className="relative z-0">
                   <img src={iconicairmobile} className="w-full bg-slate-100 dark:bg-slate-900 rounded-2xl shadow-lg"></img>
-                  <div className="absolute top-2 left-2 lg:h-10 lg:w-10 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
-                    <img src={link} className="h-6"></img>
+                  <div className="absolute top-2 left-4 h-10 w-10 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
+                    <Link className="h-6 fill-white" />
                   </div>
                 </a>
               </div>
@@ -277,8 +277,8 @@ export function Work() {
               <div>
                 <a href="https://www.fingy3d.com/" target="_blank" className="relative z-0">
                   <img src={fingy3dmobile} className="w-full bg-slate-100 dark:bg-slate-900 rounded-2xl shadow-lg"></img>
-                  <div className="absolute top-2 left-2 lg:h-10 lg:w-10 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
-                    <img src={link} className="h-6"></img>
+                  <div className="absolute top-2 left-4 h-10 w-10 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
+                    <Link className="h-6 fill-white" />
                   </div>
                 </a>
               </div>
@@ -462,7 +462,7 @@ export function Work() {
                 <a className="flex flex-row justify-end items-end relative" href="https://apps.apple.com/us/app/gigup/id1603502689" target="_blank">
                   <img src={gigupdesktop} className="w-fit rounded-3xl bg-slate-100 dark:bg-slate-900 shadow-lg z-0"></img>
                   <div className="absolute top-6 right-6 h-12 w-12 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
-                    <img src={link} className="h-6"></img>
+                    <Link className="h-6 fill-white" />
                   </div>
                 </a>
               </div>
@@ -535,7 +535,7 @@ export function Work() {
                 >
                   <img src={goghdesktop} className="rounded-3xl dark:bg-slate-900 shadow-lg"></img>
                   <div className="absolute top-6 right-6 h-12 w-12 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
-                    <img src={link} className="h-6"></img>
+                    <Link className="h-6 fill-white" />
                   </div>
                 </a>
               </div>
@@ -604,7 +604,7 @@ export function Work() {
                 <a className="w-full flex flex-row justify-end items-end relative" href="https://iconicair.io/" target="_blank">
                   <img src={iconicairdesktop} className="rounded-3xl bg-slate-100 dark:bg-slate-900 shadow-lg"></img>
                   <div className="absolute top-6 right-6 h-12 w-12 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
-                    <img src={link} className="h-6"></img>
+                    <Link className="h-6 fill-white" />
                   </div>
                 </a>
               </div>
@@ -665,7 +665,7 @@ export function Work() {
                 <a className="w-full flex flex-row justify-end items-end relative" href="https://www.fingy3d.com/" target="_blank">
                   <img src={fingy3ddesktop} className="rounded-3xl bg-slate-100 dark:bg-slate-900 shadow-lg "></img>
                   <div className="absolute top-6 right-6 h-12 w-12 rounded-full bg-blue-700 shadow-xl border-white z-10 flex justify-center items-center">
-                    <img src={link} className="h-6"></img>
+                    <Link className="h-6 fill-white" />
                   </div>
                 </a>
               </div>

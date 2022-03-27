@@ -30,6 +30,8 @@ import javascript from '../Assets/javascript.svg';
 import jquery from '../Assets/jquery.svg';
 import nodejs from '../Assets/nodejs.svg';
 import photoshop from '../Assets/photoshop.svg';
+import puppeteer from '../Assets/puppeteer.svg';
+import express from '../Assets/expressjs.svg';
 
 import { Carousel } from 'react-responsive-carousel';
 
@@ -212,6 +214,18 @@ export function Skills({}) {
                     <img src={nodejs} className="max-h-12"></img>
                   </div>
                   <div className="text-center font-medium">Node.js</div>
+                </div>
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                  <div className="w-full h-full flex justify-center items-center">
+                    <img src={express} className="max-h-12"></img>
+                  </div>
+                  <div className="text-center font-medium">Express.js</div>
+                </div>
+                <div className="bg-white rounded-lg shadow-lg w-full h-full flex flex-col p-2 justify-between transition duration-500 hover:scale-110">
+                  <div className="w-full h-full flex justify-center items-center">
+                    <img src={puppeteer} className="max-h-12"></img>
+                  </div>
+                  <div className="text-center font-medium">Puppeteer</div>
                 </div>
               </div>
             </div>
