@@ -319,7 +319,7 @@ export function Work() {
                   </div>
                 </div>
               </div>
-              <div className="text-xs text-blue-300">
+              <div className="text-xs blue-text-700 dark:text-blue-300">
                 A project made to update me on FC Barcelona's next match information, including formatted date of next match, formatted kickoff time
                 in EST, opponent, location, countdown timer, and a complex, purely vanilla dark mode animation. A neomorphic design was used
                 throughout and puppeteer was used to fetch the data from FC Barcelona's official website.
@@ -343,7 +343,7 @@ export function Work() {
                   </div>
                 </div>
               </div>
-              <div className="text-xs text-blue-300">
+              <div className="text-xs blue-text-700 dark:text-blue-300">
                 A project I made to solve the ancient problem of not being able to decide where to eat with your significant other. The project uses
                 React, Redux and the Google Places API to generate a list of the 20 closest restaurants to your current location that you can then
                 sort through with your partner systematically.
@@ -367,7 +367,7 @@ export function Work() {
                   </div>
                 </div>
               </div>
-              <div className="text-xs text-blue-300">
+              <div className="text-xs blue-text-700 dark:text-blue-300">
                 A small project that shows a fully functioning authentication front-end using firebase. Includes a persistent user log in as well as
                 password resets and a log out system. All user data is stored in a firestore database and updates in real-time Built with React, React
                 Paper, and Firebase.
@@ -386,7 +386,7 @@ export function Work() {
                   </div>
                 </div>
               </div>
-              <div className="text-xs text-blue-300">
+              <div className="text-xs blue-text-700 dark:text-blue-300">
                 A mobile application built to be a simple, gym exercise tracker. Includes a list of recent exercises that contains date, weight, sets
                 and reps, as well as folders that can contain multiple exercises that belong to a certain category (legs, arms, shoulders, etc.).
                 Built with react-native.
@@ -672,7 +672,7 @@ export function Work() {
                     </div>
                   </div>
                 </div>
-                <div className=" text-blue-300 text-lg tracking-tight">
+                <div className="text-blue-700 dark:text-blue-300 text-lg tracking-tight">
                   A project made to update me on FC Barcelona's next match information, including formatted date of next match, formatted kickoff time
                   in EST, opponent, location, countdown timer, and a complex, purely vanilla dark mode animation. A neomorphic design was used
                   throughout and puppeteer was used to fetch the data from FC Barcelona's official website.
@@ -696,7 +696,7 @@ export function Work() {
                     </div>
                   </div>
                 </div>
-                <div className=" text-blue-300 text-lg tracking-tight">
+                <div className="text-blue-700 dark:text-blue-300 text-lg tracking-tight">
                   A project I made to solve the ancient problem of not being able to decide where to eat with your significant other. The project uses
                   React, Redux and the Google Places API to generate a list of the 20 closest restaurants to your current location that you can then
                   sort through with your partner systematically.
@@ -722,7 +722,7 @@ export function Work() {
                     </div>
                   </div>
                 </div>
-                <div className=" text-blue-300 text-lg tracking-tight">
+                <div className="text-blue-700 dark:text-blue-300 text-lg tracking-tight">
                   A small project that shows a fully functioning authentication front-end using firebase. Includes a persistent user log in as well as
                   password resets and a log out system. All user data is stored in a firestore database and updates in real-time Built with React,
                   React Paper, and Firebase.
@@ -741,7 +741,7 @@ export function Work() {
                     </div>
                   </div>
                 </div>
-                <div className=" text-blue-300 text-lg tracking-tight">
+                <div className="text-blue-700 dark:text-blue-300 text-lg tracking-tight">
                   A mobile application built to be a simple, gym exercise tracker. Includes a list of recent exercises that contains date, weight,
                   sets and reps, as well as folders that can contain multiple exercises that belong to a certain category (legs, arms, shoulders,
                   etc.). Built with react-native.
