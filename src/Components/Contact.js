@@ -20,7 +20,7 @@ export function Contact({}) {
             </Fade>
             <div className="text-md md:text-xl font-light tracking-tight w-3/4">
               <Fade clear delay={1200}>
-                <div className="text-blue-400 font-semibold tracking-tighter">Thanks for checking out my portfolio!</div>
+                <div className="text-blue-400 font-semibold tracking-tighter">Thanks for stopping by!</div>
               </Fade>
               <Fade clear delay={1600}>
                 <div className="py-2 dark:text-slate-200">

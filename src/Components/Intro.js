@@ -28,8 +28,8 @@ export function Intro({}) {
         <Fade clear delay={3600}>
           <p className="text-sm md:text-xl font-light tracking-tight whitespace-normal md:w-3/5">
             I'm a <span className="text-blue-700">ui/ux designer</span> and <span className="text-blue-700">front-end developer</span> who creates
-            unique & interactive digital experiences with a human-centered approach. Currently, I'm focused on designing and building world-class
-            applications with my team at <span className="text-blue-700">M&S Consulting.</span>
+            responsive, unique & interactive digital experiences with a user-focused approach. Currently, I'm focused on designing and building
+            world-class applications with my team at <span className="text-blue-700">M&S Consulting.</span>
           </p>
         </Fade>
 
