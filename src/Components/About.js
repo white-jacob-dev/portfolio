@@ -52,30 +52,39 @@ export function About({}) {
           <div className="text-sm md:text-xl font-light tracking-tight whitespace-normal space-y-4 pt-4 dark:text-slate-200">
             <Fade clear delay={1200}>
               <div>
-                <span className="font-bold text-blue-700">Hello!</span> My name is Jacob and{' '}
-                <span className="text-blue-700 font-bold">I enjoy designing and building smooth experiences</span> for people all over the world.
+                <span className="font-bold text-blue-700 dark:text-blue-300">Hello!</span> My name is Jacob and{' '}
+                <span className="text-blue-700 font-bold dark:text-blue-300">I enjoy designing and building smooth experiences</span> for people all
+                over the world.
               </div>
             </Fade>
             <Fade clear delay={1600}>
               <div>
                 After spending most of my hours coding for fun during my aerospace engineering undergraduate, I realized that pursuing a computer
                 science degree was definitely the right move for me. Hundreds of thousands of lines of code later,
-                <span className="text-blue-700 font-bold"> I truly love what I do and always get excited for new projects and experiences</span>.
+                <span className="text-blue-700 dark:text-blue-300 font-bold">
+                  {' '}
+                  I truly love what I do and always get excited for new projects and experiences
+                </span>
+                .
               </div>
             </Fade>
             <Fade clear delay={2000}>
               <div>
-                I was lucky enough to be able to combine <span className="text-blue-700 font-bold">my two passions of design and programming</span>{' '}
-                into a single career and because of that, I've had the joy of{' '}
-                <span className="text-blue-700 font-bold">working with a wide variety of clients covering many different industries</span>. From
-                crypto to medical, retail to agriculture, government to local and several others inbetween, being able to produce high-quality
+                I was lucky enough to be able to combine{' '}
+                <span className="text-blue-700 dark:text-blue-300 font-bold">my two passions of design and programming</span> into a single career and
+                because of that, I've had the joy of{' '}
+                <span className="text-blue-700 dark:text-blue-300 font-bold">
+                  working with a wide variety of clients covering many different industries
+                </span>
+                . From crypto to medical, retail to agriculture, government to local and several others inbetween, being able to produce high-quality
                 applications for the people I meet always brings me great joy.
               </div>
             </Fade>
             <Fade clear delay={2400}>
               <div>
-                The breadth of my work has given me <span className="text-blue-700 font-bold">experience with many different technologies</span>. Here
-                are some of the ones I've used recently:
+                The breadth of my work has given me{' '}
+                <span className="text-blue-700 dark:text-blue-300 font-bold">experience with many different technologies</span>. Here are some of the
+                ones I've used recently:
               </div>
             </Fade>
           </div>
