@@ -319,83 +319,92 @@ export function Work() {
               </Fade>
             </div>
           </div>
-          <div className="w-full bg-white h-fit rounded-xl border-4 border-blue-600 shadow-lg py-3 px-4">
-            <div className="flex flex-row justify-between items-center pb-4">
-              <div className="text-5xl font-bold">Mirror</div>
-              <div className="flex flex-row space-x-4 items-center">
-                <div>
-                  <a href="https://github.com/white-jacob-dev/mirror" target="_blank">
-                    <Github />
-                  </a>
+          <Fade clear delay={400}>
+            <div className="w-full bg-white dark:bg-slate-900 dark:text-slate-200 h-fit rounded-xl border-4 border-blue-600 shadow-lg py-3 px-4">
+              <div className="flex flex-row justify-between items-center pb-4">
+                <div className="text-5xl font-bold">Mirror</div>
+                <div className="flex flex-row space-x-4 items-center">
+                  <div>
+                    <a href="https://github.com/white-jacob-dev/mirror" target="_blank">
+                      <Github className="dark:fill-slate-200" />
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="text-xs text-blue-700">
-              A project made to update me on FC Barcelona's next match information, including formatted date of next match, formatted kickoff time in
-              EST, opponent, location, countdown timer, and a complex, purely vanilla dark mode animation. A neomorphic design was used throughout and
-              puppeteer was used to fetch the data from FC Barcelona's official website.
-            </div>
-          </div>
-          <div className="w-full bg-white h-fit rounded-xl border-4 border-blue-600 shadow-lg py-3 px-4">
-            <div className="flex flex-row justify-between items-center pb-4">
-              <div className="text-5xl font-bold">Food</div>
-              <div className="flex flex-row space-x-4 items-center">
-                <div>
-                  <a href="https://github.com/white-jacob-dev/food" target="_blank">
-                    <Github />
-                  </a>
-                </div>
-                <div>
-                  <a href="https://food-solver.netlify.app/" target="_blank">
-                    <Link className="w-7" />
-                  </a>
-                </div>
+              <div className="text-xs text-blue-700">
+                A project made to update me on FC Barcelona's next match information, including formatted date of next match, formatted kickoff time
+                in EST, opponent, location, countdown timer, and a complex, purely vanilla dark mode animation. A neomorphic design was used
+                throughout and puppeteer was used to fetch the data from FC Barcelona's official website.
               </div>
             </div>
-            <div className="text-xs text-blue-700">
-              A project I made to solve the ancient problem of not being able to decide where to eat with your significant other. The project uses
-              React, Redux and the Google Places API to generate a list of the 20 closest restaurants to your current location that you can then sort
-              through with your partner systematically.
-            </div>
-          </div>
-          <div className="w-full bg-white h-fit rounded-xl border-4 border-blue-600 shadow-lg py-3 px-4">
-            <div className="flex flex-row justify-between items-center pb-4">
-              <div className="text-5xl font-bold">Fire-Auth</div>
-              <div className="flex flex-row space-x-4 items-center">
-                <div>
-                  <a href="https://github.com/white-jacob-dev/mirror" target="_blank">
-                    <Github />
-                  </a>
-                </div>
-                <div>
-                  <a href="https://github.com/white-jacob-dev/mirror" target="_blank">
-                    <Link className="w-7" />
-                  </a>
+          </Fade>
+          <Fade clear delay={400}>
+            <div className="w-full bg-white dark:bg-slate-900 dark:text-slate-200 h-fit rounded-xl border-4 border-blue-600 shadow-lg py-3 px-4">
+              <div className="flex flex-row justify-between items-center pb-4">
+                <div className="text-5xl font-bold">Food</div>
+                <div className="flex flex-row space-x-4 items-center">
+                  <div>
+                    <a href="https://github.com/white-jacob-dev/food" target="_blank">
+                      <Github className="dark:fill-slate-200" />
+                    </a>
+                  </div>
+                  <div>
+                    <a href="https://food-solver.netlify.app/" target="_blank">
+                      <Link className="w-7 dark:fill-slate-200" />
+                    </a>
+                  </div>
                 </div>
               </div>
-            </div>
-            <div className="text-xs text-blue-700">
-              A small project that shows a fully functioning authentication front-end using firebase. Includes a persistent user log in as well as
-              password resets and a log out system. Built with React, React Paper, and Firebase.
-            </div>
-          </div>
-          <div className="w-full bg-white h-fit rounded-xl border-4 border-blue-600 shadow-lg py-3 px-4">
-            <div className="flex flex-row justify-between items-center pb-4">
-              <div className="text-5xl font-bold">Arnold</div>
-              <div className="flex flex-row space-x-4 items-center">
-                <div>
-                  <a href="https://github.com/white-jacob-dev/arnold" target="_blank">
-                    <Github />
-                  </a>
-                </div>
+              <div className="text-xs text-blue-700">
+                A project I made to solve the ancient problem of not being able to decide where to eat with your significant other. The project uses
+                React, Redux and the Google Places API to generate a list of the 20 closest restaurants to your current location that you can then
+                sort through with your partner systematically.
               </div>
             </div>
-            <div className="text-xs text-blue-700">
-              A mobile application built to be a simple, gym exercise tracker. Includes a list of recent exercises that contains date, weight, sets
-              and reps, as well as folders that can contain multiple exercises that belong to a certain category (legs, arms, shoulders, etc.). Built
-              with react-native.
+          </Fade>
+          <Fade clear delay={400}>
+            <div className="w-full bg-white dark:bg-slate-900 dark:text-slate-200 h-fit rounded-xl border-4 border-blue-600 shadow-lg py-3 px-4">
+              <div className="flex flex-row justify-between items-center pb-4">
+                <div className="text-5xl font-bold">Fire-Auth</div>
+                <div className="flex flex-row space-x-4 items-center">
+                  <div>
+                    <a href="https://github.com/white-jacob-dev/fire-auth" target="_blank">
+                      <Github className="dark:fill-slate-200" />
+                    </a>
+                  </div>
+                  <div>
+                    <a href="https://fire-auth-project.netlify.app/" target="_blank">
+                      <Link className="dark:fill-slate-200 w-7" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="text-xs text-blue-700">
+                A small project that shows a fully functioning authentication front-end using firebase. Includes a persistent user log in as well as
+                password resets and a log out system. All user data is stored in a firestore database and updates in real-time Built with React, React
+                Paper, and Firebase.
+              </div>
             </div>
-          </div>
+          </Fade>{' '}
+          <Fade clear delay={400}>
+            <div className="w-full bg-white dark:bg-slate-900 dark:text-slate-200 h-fit rounded-xl border-4 border-blue-600 shadow-lg py-3 px-4">
+              <div className="flex flex-row justify-between items-center pb-4">
+                <div className="text-5xl font-bold">Arnold</div>
+                <div className="flex flex-row space-x-4 items-center">
+                  <div>
+                    <a href="https://github.com/white-jacob-dev/arnold" target="_blank">
+                      <Github className="dark:fill-slate-200" />
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div className="text-xs text-blue-700">
+                A mobile application built to be a simple, gym exercise tracker. Includes a list of recent exercises that contains date, weight, sets
+                and reps, as well as folders that can contain multiple exercises that belong to a certain category (legs, arms, shoulders, etc.).
+                Built with react-native.
+              </div>
+            </div>
+          </Fade>
         </div>
         <div className="hidden lg:block space-y-32">
           <div className="flex flex-row space-evenly space-x-4">
@@ -659,6 +668,96 @@ export function Work() {
                     <img src={link} className="h-6"></img>
                   </div>
                 </a>
+              </div>
+            </Fade>
+          </div>
+          <div className="flex flex-row justify-between space-x-12">
+            <Fade clear delay={400}>
+              <div className="w-1/2 bg-white h-fit dark:bg-slate-900 dark:text-slate-200 rounded-xl border-4 border-blue-600 shadow-lg py-3 px-4">
+                <div className="flex flex-row justify-between items-center pb-4">
+                  <div className="text-5xl font-bold">Mirror</div>
+                  <div className="flex flex-row space-x-4 items-center">
+                    <div>
+                      <a href="https://github.com/white-jacob-dev/mirror" target="_blank">
+                        <Github className="dark:fill-slate-200" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="text-xs text-blue-700">
+                  A project made to update me on FC Barcelona's next match information, including formatted date of next match, formatted kickoff time
+                  in EST, opponent, location, countdown timer, and a complex, purely vanilla dark mode animation. A neomorphic design was used
+                  throughout and puppeteer was used to fetch the data from FC Barcelona's official website.
+                </div>
+              </div>
+            </Fade>
+            <Fade clear delay={800}>
+              <div className="w-1/2 bg-white dark:bg-slate-900 dark:text-slate-200 h-fit rounded-xl border-4 border-blue-600 shadow-lg py-3 px-4">
+                <div className="flex flex-row justify-between items-center pb-4">
+                  <div className="text-5xl font-bold">Food</div>
+                  <div className="flex flex-row space-x-4 items-center">
+                    <div>
+                      <a href="https://github.com/white-jacob-dev/food" target="_blank">
+                        <Github className="dark:fill-slate-200" />
+                      </a>
+                    </div>
+                    <div>
+                      <a href="https://food-solver.netlify.app/" target="_blank">
+                        <Link className="dark:fill-slate-200 w-7" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="text-xs text-blue-700">
+                  A project I made to solve the ancient problem of not being able to decide where to eat with your significant other. The project uses
+                  React, Redux and the Google Places API to generate a list of the 20 closest restaurants to your current location that you can then
+                  sort through with your partner systematically.
+                </div>
+              </div>
+            </Fade>
+          </div>
+          <div className="flex flex-row justify-between space-x-12">
+            <Fade clear delay={1200}>
+              <div className="w-1/2 bg-white dark:bg-slate-900 dark:text-slate-200 h-fit rounded-xl border-4 border-blue-600 shadow-lg py-3 px-4">
+                <div className="flex flex-row justify-between items-center pb-4">
+                  <div className="text-5xl font-bold">Fire-Auth</div>
+                  <div className="flex flex-row space-x-4 items-center">
+                    <div>
+                      <a href="https://github.com/white-jacob-dev/fire-auth" target="_blank">
+                        <Github className="dark:fill-slate-200" />
+                      </a>
+                    </div>
+                    <div>
+                      <a href="https://fire-auth-project.netlify.app/" target="_blank">
+                        <Link className="dark:fill-slate-200 w-7" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="text-xs text-blue-700">
+                  A small project that shows a fully functioning authentication front-end using firebase. Includes a persistent user log in as well as
+                  password resets and a log out system. All user data is stored in a firestore database and updates in real-time Built with React,
+                  React Paper, and Firebase.
+                </div>
+              </div>
+            </Fade>{' '}
+            <Fade clear delay={1600}>
+              <div className="w-1/2 bg-white dark:bg-slate-900 dark:text-slate-200 h-fit rounded-xl border-4 border-blue-600 shadow-lg py-3 px-4">
+                <div className="flex flex-row justify-between items-center pb-4">
+                  <div className="text-5xl font-bold">Arnold</div>
+                  <div className="flex flex-row space-x-4 items-center">
+                    <div>
+                      <a href="https://github.com/white-jacob-dev/arnold" target="_blank">
+                        <Github className="dark:fill-slate-200" />
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div className="text-xs text-blue-700">
+                  A mobile application built to be a simple, gym exercise tracker. Includes a list of recent exercises that contains date, weight,
+                  sets and reps, as well as folders that can contain multiple exercises that belong to a certain category (legs, arms, shoulders,
+                  etc.). Built with react-native.
+                </div>
               </div>
             </Fade>
           </div>
